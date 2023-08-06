@@ -1,0 +1,1292 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+     
+     font-family: 'Mulish', Arial, Helvetica, sans-serif;
+     font-size: 30px; 
+     max-width: 1920px;
+     height: 961px;
+}
+
+body {
+     width: 100%;
+     height: 100%;
+}
+
+a {
+     color: black;
+     text-decoration: none;
+}
+
+li {
+     display: inline-block;
+     width: 10%;
+     height: 100%;
+     padding-top: 2.5%;
+}
+
+h1 {
+     display: block;
+     font-size: 2.75rem;
+     width: 100%;
+     padding: 5% 50% 0 10%;
+}
+
+h5 {
+     padding-bottom: 8%;
+     font-size: 0.6rem;
+}
+
+.alt-font {
+     font-family: 'Nanum Myeongjo', serif; 
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body > * {
+     width: 100%;
+}
+
+header {
+     height: 10%;
+     text-align: center;
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/ayesha.png?v=1687671814663') 5% 50%/6% no-repeat, url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/magnify.png?v=1687671732451') 75% 50%/2.5% no-repeat, url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/bag.png?v=1687671724356') 80% 50%/2.5% no-repeat;
+     
+}
+
+main {
+     color: white;
+     height: 80%;
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/main.png?v=1687678503147') 50% 50% no-repeat;
+}
+
+.box {
+     height: 35%;
+}
+
+.bigbox {
+     height: 50%;
+}
+
+.top {
+     width: 100%;
+     height: 60%;
+}
+
+.bottom {
+     background: black;
+     width: 13%;
+     height: 35%;
+     margin: 0 0 0 10%;
+}
+
+.tripcol {
+     padding: 0 15%;
+}
+
+.couple {
+     height: 15%;
+}
+
+
+.looks {
+     height: 85%;
+     padding: 0 25% 2.5% 25%;
+}
+
+.looks > * {
+     float: left;
+     width: 33.3333%;
+}
+
+.lcol,
+.mcol,
+.rcol {
+     height: 100%;
+}
+
+.mcol,
+.rcol {
+     border-left: 10px solid white;
+}
+
+.small {
+     width: 100%;
+     height: 35%;
+}
+
+.long {
+     width: 100%;
+     height: 65%;
+}
+
+footer > section > * {
+     float: left;
+}
+
+.fbox {
+     width: 25%;
+     height: 100%;
+}
+
+footer {
+     height: 45%;
+     color: white;
+     background: black;
+     font-size: 0.5rem;
+}
+
+footer > section {
+     height: 80%;
+     width: 100%;
+     padding: 2.5% 16% 0 16%;
+}
+
+footer > section > div {
+     padding-right: 5%;
+}
+
+footer > div {
+     height: 20%;
+     width: 100%;
+}
+
+footer > div > * {
+     float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+header > nav > * {
+     display: inline-block;
+     text-align: center;
+}
+
+header > nav {
+     height: 100%;
+
+}
+
+header > nav > ul {
+     display: inline-block;
+     width: 80%;
+     height : 100%;
+     font-size: 0.5rem;
+     font-weight: 500;
+}
+
+.btn {
+     color: black;
+     font-family: inherit;
+     border: none;
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/ellipse.png?v=1687672288774') 2.5% 50% no-repeat white;
+     font-size: 0.5rem;
+     font-weight: 500;
+     width: 8%;
+     height: 25%;
+
+}
+
+.top > span {
+     padding-left: 10%;
+     
+     font-size: 0.5rem;
+}
+
+.bottom > * {
+     display: block;
+}
+
+.services {
+     display: block;
+     color: white;
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/blackdots.png?v=1687681293928') 2.5% 50% no-repeat black;
+     font-size: 0.4rem;
+     height: 10%;
+     margin: 1% 0 0 10%;
+}
+
+.visit {
+     font-size: 0.6rem;
+     width: 100%;
+     height: 20%;
+     padding: 10% 0 0 10%;
+}
+
+.discount {
+     font-size: 0.7rem;
+     line-height: 1.75;
+     padding: 5% 0 0 10%;
+     height: 40%;
+     width: 90%;
+     font-weight: 800;
+}
+
+.book {
+     font-size: 0.4rem;
+     padding-left: 5%;
+     width: 50%;
+     height: 12%;
+     margin: 23% 0 0 10%;
+}
+
+.column {
+     width: 33.333%;
+     height: 100%;
+     padding: 12% 5% 0 5%;
+}
+
+.column > h3 {
+     text-align: center;
+     font-size: 0.6rem;
+     font-weight: 800;
+}
+
+.column > p {
+     text-align: center;
+     font-size: 0.5rem;
+     color: rgb(115, 115, 115);
+     font-weight: 500;
+     line-height: 2;
+     padding-top: 2%;
+}
+
+.tripcol > * {
+     float: left;
+}
+
+.beauty {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/beautician.png?v=1687730234202') 50% 25% no-repeat;
+     background-size: 17%;
+}
+
+.quality {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/chair.png?v=1687730231195') 50% 25% no-repeat;
+     background-size: 17%;
+}
+
+.products {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/product.png?v=1687730228519') 50% 25% no-repeat;
+     background-size: 17%;
+}
+
+.twocol {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/vid.png?v=1687731624878') 75% 50% no-repeat rgb(243, 244, 246);
+     height: 60%;
+}
+
+.twocol > div {
+     width: 50%;
+     height: 100%;
+     padding: 5% 0 5% 20%;
+}
+
+.twocol > div > h2 {
+     display: block;
+     width: 100%;
+     height: 40%;
+     line-height: 1.5;
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+
+.twocol > div > p { 
+     color: rgb(115, 115, 115);
+     font-size: 0.5rem;
+     line-height: 2;
+     padding-bottom: 5%;
+}
+
+.read {
+     display: block;
+     color: white;
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/blackdots.png?v=1687681293928') 2.5% 50% no-repeat black;
+     width: 30%;
+     height: 10%;
+     font-size: 0.4rem;
+}
+
+.stylers {
+     height: 65%;
+}
+
+.stylers > section {
+     height: 70%;
+     width: 100%;
+     padding: 2% 20% 0 20%;
+
+}
+
+.lookbook {
+     height: 100%;
+}
+
+.stylers > section > * {
+     float: left;
+}
+
+.stylers > .people > h2,
+.lookbook > div > h2 {
+     display: block;
+     width: 100%;
+     height: 30%;
+     text-align: center;
+     padding-top: 2.5%;
+     font-size: 1.25rem;
+     font-weight: 700;
+
+}
+
+.stylers > .people > .bar {
+     display: block;
+     text-align: center;
+     border: 2px solid black;
+     width: 2%;
+     margin: 1% 0 1% 49%;
+     
+}
+
+footer > section > .fbox >.bar {
+     display: block;
+     text-align: center;
+     border: 2px solid white;
+     width: 10%;
+     margin-bottom: 5%;
+    
+}
+
+.lookbook > div > .bar {
+     display: block;
+     text-align: center;
+     border: 2px solid black;
+     width: 2%;
+     margin: 3% 0 1% 49%;
+     
+}
+.hide {
+     display: none;
+}
+
+.person {
+     width: 33.3333333%;
+     height: 100%;
+}
+
+.person > a {
+     display: block;
+     font-size: 0.6rem;
+     text-align: center;
+     width: 100%;
+     height: 8%;
+     margin-top: 95%;
+
+}
+
+.person > span {
+     display: block;
+     font-size: 0.45rem;
+     text-align: center;
+     width: 100%;
+     height: 10%;
+}
+
+.left {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/alita.png?v=1687733747693') 50% 0 no-repeat;
+}
+
+.middle {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/ayesha2.png?v=1687733744219') 50% 0 no-repeat;
+}
+
+.right {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/alen.png?v=1687733741901') 50% 0 no-repeat;
+}
+
+
+
+.sale {
+     height: 60%;
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/colorday.png?v=1687734370892') 50% 50% no-repeat;
+     padding: 10% 0 0 25%;
+}
+
+.sale > h4 {
+     display: block;
+     font-size: 0.6rem;
+     font-weight: 700;
+     height: 10%;
+     width: 100%;
+     
+}
+
+.sale > span {
+     display: block;
+     height: 45%;
+     width: 100%;
+     padding-right: 75%;
+     padding-bottom: 10%;
+     font-weight: 700;
+     line-height: 1.75;
+}
+
+.appt {
+     display: block;
+     color: white;
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/blackdots.png?v=1687681293928') 2.5% 50% no-repeat black;
+     width: 15%;
+     height: 12%;
+     font-size: 0.4rem;
+}
+
+.lcol > .small {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/pic1.png?v=1687814488840') no-repeat;
+     background-size: 100% auto;
+     border-bottom: 10px solid white;
+}
+
+.lcol > .long {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/pic2.png?v=1687814490720') no-repeat;
+     background-size: 100% auto;
+}    
+
+.mcol > .small {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/pic4.png?v=1687814497100') no-repeat;
+     background-size: 100% auto;
+}
+
+.mcol > .long {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/pic3.png?v=1687814493651') no-repeat;
+     background-size: 100% auto;
+     border-bottom: 10px solid white;
+}
+
+.rcol > .small {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/pic5.png?v=1687814500417') no-repeat;
+     background-size: 100% auto;
+     border-bottom: 10px solid white;
+}
+
+.rcol > .long {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/pic6.png?v=1687814503531') no-repeat;
+     background-size: 100% auto;
+}
+
+.pic {
+     display: none;
+}
+.copy {
+     border-top: thin solid rgb(38, 38, 38);
+}
+
+.copy > ul > li > a,
+.copy > span {
+     color: white;
+}
+
+.copy > span {
+     width: 50%;
+     height: 100%;
+     text-align: center;
+     padding-top: 1.25%;
+}
+
+.copy > ul {
+     width: 50%;
+     height: 100%;
+}
+
+.copy > ul > li {
+     width: 12%;
+     height: 100%;
+     text-align: center;
+} 
+
+.contact > ul > li {
+     display: block;
+     width: 100%;
+     height: 10%;
+     padding-left: 10%;
+     line-height: 2;
+}
+
+.description {
+     line-height: 2;
+}
+
+.about {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/socialz.png?v=1687835677585') 0 90% no-repeat
+}
+
+.time {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/clock.png?v=1687835961581') 0 65% no-repeat;
+}
+
+.phone {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/phone.png?v=1687835962571') 0 65% no-repeat;
+
+}
+
+.email {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/mail.png?v=1687835966800') 0 65% no-repeat;
+
+}
+
+.address {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/address.png?v=1687835964636') 0 65% no-repeat;
+
+}
+
+.email > a {
+     color:white;
+}
+
+.posts > section {
+     width: 100%;
+     height: 100%;
+}
+
+.posts > section > div {
+     width: 100%;
+     height: 25%;
+}
+
+
+.posts > section > div > h6,
+.posts > section > div > span {
+     display: block;
+     width: 100%;
+     height: 50%;
+}
+
+.posts > section > div > h6 {
+     padding: 3% 0 0 20%;
+}
+
+.posts > section > div > span {
+     padding: 2% 0 0 30%;
+}
+
+.mid,
+.last {
+     border-top: thin solid rgb(38,38,38);
+}
+
+.start {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/trendy.png?v=1688005540644') 0 50% no-repeat;
+     background-size: 15%;
+}
+
+.mid {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/straight.png?v=1688005538633') 0 50% no-repeat;
+     background-size: 15%;
+}
+
+.last {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/men.png?v=1688005536163') 0 50% no-repeat;
+     background-size: 15%;
+}
+
+.date {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/calendar.png?v=1688005530779') 23% 0% no-repeat;
+     font-size: 0.45rem;
+}
+
+.minilook {
+     height: 100%;
+     width: 100%;
+}
+.minilook > * {
+     float: left;
+}
+
+.minilook > div {
+     width: 33.3333%;
+     height: 35%;
+     
+}
+
+.look1 {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/small1.png?v=1688010229041') 50% 50% no-repeat;
+}
+
+.look2 {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/small2.png?v=1688010229318') 50% 50% no-repeat;
+}
+
+.look3 {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/small3.png?v=1688010231609') 50% 50% no-repeat;
+}
+
+.look4 {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/small4.png?v=1688010233583') 50% 50% no-repeat;
+}
+
+.look5 {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/small5.png?v=1688010235375') 50% 50% no-repeat;
+}
+
+.look6 {
+     background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/small6.png?v=1688010239268') 50% 50% no-repeat;
+}
+
+.group {
+     background-size: 90%;
+}
+
+
+/******************************************
+/* MEDIA QUERIES *
+/*******************************************/
+@media all and (min-width: 360px) and (max-width: 1825px) {
+
+     .left, 
+     .right,
+     .middle {
+          background-size: 69%;
+     }
+
+     .stylers {
+          height: 53%;
+     }
+
+     footer > section {
+          padding: 2.5% 13% 0 13%;
+     }
+
+@media all and (min-width: 1201px) and (max-width: 1735px) {
+     .btn {
+          width: 10%;
+     }
+
+     .book {
+          width: 60%;
+          padding-left: 10%;
+     }
+
+     li {
+          padding-top: 3.5%;
+     }
+
+     .discount {
+          font-size: 0.6rem;
+     }
+
+     .beauty {
+          background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/beautician.png?v=1687730234202') 50% 16% no-repeat;
+          background-size: 17%;
+     }
+     
+     .quality {
+          background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/chair.png?v=1687730231195') 50% 16% no-repeat;
+          background-size: 17%;
+     }
+
+     .products {
+          background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/product.png?v=1687730228519') 50% 16% no-repeat;
+          background-size: 17%;
+     }
+
+     .twocol {
+          background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/vid.png?v=1687731624878') 80% 50% no-repeat rgb(243, 244, 246);
+     }
+
+     .twocol > div {
+          padding: 5% 10% 5% 5%;
+     }
+
+     .twocol > div > p {
+          padding-top: 5%;
+          padding-bottom: 2.5%;
+     }
+     .read {
+          width: 35%;
+     }
+
+     .appt {
+          width: 20%;
+          margin-top: 2%;
+     }
+
+     .lcol,
+     .mcol,
+     .rcol {
+          height: 90%;
+     }
+
+     .lookbook {
+          height: 90%;
+     }
+
+     .copy > ul > li {
+          width: 15%;
+     }
+
+     footer > section {
+          padding: 2.5% 10% 0 10%;
+     }
+@media all and (max-width: 1550px) {
+     .lcol,
+     .mcol,
+     .rcol {
+          height: 80%;
+     }
+
+     .looks {
+          margin-top: 3%;
+     }
+
+     footer > section {
+          padding: 2.5% 5% 0 5%;
+     }
+}
+
+@media all and (max-width: 1400px) {
+     .lcol,
+     .mcol,
+     .rcol {
+          height: 75%;
+     }
+
+     .copy > ul > li {
+          width: 20%;
+     }
+
+     footer > section {
+          padding: 2.5% 4% 0 4%;
+     }
+}
+
+@media all and (min-width: 1201px) and (max-width: 1365px) {
+     .gone {
+          display: none;
+     }
+
+     header {
+           background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/ayesha.png?v=1687671814663') 5% 50%/6% no-repeat, url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/magnify.png?v=1687671732451') 80% 45%/2.5% no-repeat, url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/bag.png?v=1687671724356') 85% 45%/2.5% no-repeat;
+     }
+     
+     h1 {
+          padding: 5% 50% 0 5%;
+     }
+
+     .top > span {
+          padding-left: 5%;
+     }
+
+     .services {
+          margin-left: 5%;
+          width: 15%;
+     }
+
+     .bottom {
+          margin-left: 5%;
+          width: 15%;
+     }
+
+     footer > section {
+          height: 80%;
+          width: 100%;
+          padding: 2.5% 0 0 3%;
+     }
+}
+
+}
+
+@media all and (min-width: 360px) and (max-width: 1200px) {
+     header {
+          background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/ayeshaw.png?v=1688235180445') 5% 50% no-repeat, url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/hamburger.png?v=1688235113711') 95% 50% no-repeat black;
+          
+     }
+
+     main {
+          border-top: thin solid black;
+     }
+
+     .poof {
+          display: none;
+     }
+     
+     h1 {
+          padding: 5% 50% 0 2.5%;
+          font-size: 2.5rem;
+     }
+
+     .top > span {
+          padding-left: 2.5%;
+     }
+
+     .services {
+          margin-left: 2.5%;
+          width: 15%;
+     }
+
+     .bottom {
+          margin-left: 2.5%;
+          width: 20%;
+     }
+
+     .book {
+          width: 60%;
+          margin-top: 30%;
+          padding-left: 10%;
+     }
+
+     .visit {
+          font-size: 0.5rem;
+     }
+
+     .column {
+          width: 100%;
+          height: 33.33333%;
+          padding: 18% 5% 0 5%;
+     }
+
+     .tripcol {
+          height: 80%;
+     }
+
+     .beauty,
+     .quality,
+     .products {
+          background-position: 50% 20%;
+          background-size: 8%;
+     }
+
+     .twocol {
+          background: url('https://cdn.glitch.global/c57f82dd-0e6b-464e-a598-64842ca5e4cb/vid.png?v=1687731624878') 50% 90% no-repeat rgb(243, 244, 246);
+          background-size: 70%;
+          height: 100%;
+     }
+
+     .twocol > div {
+          padding: 5% 10%;
+          width: 100%;
+     }
+
+     .twocol > div > h2 {
+          height: 10%;
+          text-align: center;
+     }
+
+     .read {
+          margin: 0 35%;
+          width: 18%;
+          height: 5%;
+     }
+
+     .person {
+          width: 100%;
+          height: 33.33333%;
+          background-size: 55%;
+          margin-top: 5%;
+     }
+
+     .person > a {
+          margin-top: 75%;
+          height: 5%;
+     }
+
+     .stylers {
+          height: 200%;
+
+     }
+     
+     .stylers > section {
+          height: 90%;
+     }
+
+     .sale {
+          padding: 10% 0 0 10%;
+          background-size: 100%;
+     }
+
+     .sale > span {
+          padding-right: 50%;
+          height: 30%;
+     }
+
+     .sale > h4 {
+          margin-top: 5%;
+     }
+
+     .appt {
+          width: 20%;
+          padding-left: 3.5%;
+     }
+
+    
+
+     .lookbook {
+          height: 80%;
+     }
+
+     .looks {
+          height: 70%;
+     }
+     
+     footer > section {
+          padding: 2.5% 0 0 2%;
+     }
+
+     footer > section > div {
+          padding-right: 1%;
+     }
+     
+     .copy > ul {
+          height: 8%;
+          margin-left: 25%;
+     }
+     .copy > ul > li {
+          width: 22%;
+     } 
+
+     .copy > span {
+          width: 100%;
+          height: 50%;
+     }
+     
+@media all and (max-width: 1150px) {
+     .looks {
+          height: 60%;
+     }
+}
+
+@media all and (min-width: 360px) and (max-width: 1000px) {
+     main {
+          height: 50%;
+          background-size: 160%;
+     }
+     .bottom {
+          display: none;
+     }
+
+     h1 {
+          font-size: 1.5rem;
+     }
+
+     .services {
+          width: 20%;
+     }
+
+     footer {
+          height: 100%;
+     }
+     .fbox {
+          width: 50%;
+          height: 50%;
+     }
+
+     .looks {
+          margin-top: 10%;
+          height: 50%;
+     }
+
+     .lookbook {
+          height: 70%;
+     }
+
+     .stylers > .people > .bar {
+          margin: 3% 0 1% 49%;
+     }
+
+     .lookbook > div > .bar {
+          margin: 5% 0 1% 49%;
+     }
+
+     .copy > span {
+          padding-top: 3.5%;
+     }
+
+     .look4,
+     .look5,
+     .look6 {
+          margin-top: 2%;
+     }
+
+     .copy > ul > li {
+          width: 23%;
+     }
+
+@media all and (max-width: 925px) {
+     .twocol > div > h2 {
+          height: 25%;
+     }
+
+     .read {
+          width: 25%;
+     }
+
+     .person {
+          background-size: 75%;
+     }
+
+     .person > a {
+          margin-top: 100%
+     }
+
+     .sale {
+          background-size: 125%;
+          background-position: 60% 50%;
+     }
+
+     .sale > h4 {
+          margin-top: 20%;
+     }
+
+     .sale > span {
+          font-size: 0.8rem;
+          height: 20%;
+     }
+
+     .appt {
+          width: 25%;
+     }
+}
+
+@media all and (max-width: 770px){
+     main{
+          background-size: 200%;
+     }
+
+     .services {
+          padding-left: 4.5%;
+     }
+
+     h1 {
+          margin-top: 35%;
+     }
+
+     .column > h3 {
+          margin-top: 8%;
+     }
+
+     .read {
+          width: 28%;
+     }
+
+     .stylers {
+          height: 180%;
+     }
+
+     .person {
+          margin-top: 15%;
+     }
+
+     .appt {
+          width: 30%;
+     }
+
+     .lookbook {
+          height: 60%;
+     }
+
+     .looks {
+          height: 50%;
+     }
+}
+
+@media all and (max-width: 650px) {
+     .lookbook > div > .bar {
+          margin: 8% 0 1% 49%;
+          
+     }
+
+     .lookbook {
+          height: 50%;
+     }
+
+     .looks {
+          height: 50%;
+     }
+}
+
+
+@media all and (max-width: 530px) {
+
+     .lookbook > div > .bar {
+          margin: 10% 0 1% 49%;
+          
+     }
+
+     .lookbook {
+          height: 40%;
+     }
+
+     .looks {
+          height: 55%;
+     }
+}
+
+
+
+@media all and (max-width: 625px){
+     main{
+          background-size: 250%;
+     }
+
+     .services {
+          width: 25%;
+     }
+
+     .read {
+          width: 35%;
+          padding-left: 5%;
+     }
+
+     .person {
+          height: 25%;
+     }
+
+     .person {
+          margin-top: 45%;
+     }
+
+     .people > h2 {
+          margin-top: 10%;
+     }
+
+     .sale {
+          background-size: 200%;
+     }
+
+     .sale > span {
+          font-size: 0.8rem;
+          height: 25%;
+     }
+     .appt {
+          width: 40%;
+     }
+
+}
+
+@media all and (max-width: 500px) {
+     main {
+          background-size: 300%;
+     }
+
+     .services {
+          padding-left: 4.5%;
+          width: 30%;
+     }
+
+     h1 {
+          margin-top: 35%;
+          font-size: 1.25rem;
+     }
+
+     .top > span {
+          font-size: 0.4rem;
+     }
+
+     .column > h3 {
+          font-size: 0.5rem;
+          margin-top: 15%;
+     }
+
+     .sale {
+          background-size: 250%;
+     }
+
+     .fbox {
+          width: 100%;
+          height: 25%;
+     }
+}
+
+@media all and (min-width: 360px) and (max-width: 500px) {
+     footer {
+          height: 200%;
+     }
+
+     .copy > ul {
+          height: 30%;
+          width: 100%;
+          margin: 0;
+     }
+
+     .copy > ul > li {
+          height: 50%;
+          width: 23%;
+     }
+
+     .copy > span {
+          padding-top: 10%;
+     }
+
+     .look4,
+     .look5,
+     .look6 {
+          margin-top: 2%;
+     }
+
+     .lookbook > div > .bar {
+          margin: 12% 0 1% 49%;
+          
+     }
+
+     .lookbook {
+          height: 40%;
+     }
+
+     .looks {
+          height: 40%;
+     }
+}
+
+@media all and (max-width: 400px) {
+     main {
+          background-size: 330%;
+     }
+
+     .services {
+          width: 35%;
+     }
+
+     .read {
+          width: 40%;
+     }
+
+     .sale {
+          background-size: 400%;
+          background-position: 65% 50%;
+     }
+
+     .sale > h4 {
+          margin-top: 25%;
+     }
+
+     .appt {
+          width: 50%;
+     }
+     
+}
+
+}
+
+} }

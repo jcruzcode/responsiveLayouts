@@ -1,0 +1,2491 @@
+/**********************************************************
+          Media Query: 1400-1920px
+***********************************************************/
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 60px;
+  max-width: 1920px;
+  min-width: 1400px;
+  height: 961px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main > * {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding: 0 50% 0 10%;
+  margin-top: 5%;
+  font-size: 1.75rem;
+  font-weight: 800;
+  
+}
+
+h1,
+h2,
+h3,
+.number,
+.time {
+  font-family: 'Playfair', Helvetica, serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 0.6rem;
+  font-weight: 900;
+  padding: 1% 0 0 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 10%;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/cart.png?v=1686798944140') 90% 50% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/magnify.png?v=1686798949796') 93% 50% no-repeat;
+}
+
+.box,
+.big-box,
+header,
+footer, 
+main,
+h1,
+main > form,
+main > ul,
+.about > div,
+.pick,
+.dish,
+.pick > *,
+.rowcouple > *,
+.dual,
+.video,
+.review > div,
+.review > div span,
+footer > section,
+footer > section > .square > *,
+footer > section > .logo .slogan,
+footer > div > span,
+header nav ul li a {
+  width: 100%;
+}
+
+
+main {
+  height: 80%;
+}
+
+.box {
+  height: 80%;
+}
+
+.big-box {
+  height: 100%;
+}
+
+.about > div {
+  height: 100%;
+  padding: 1% 0 0 0;
+  
+}
+
+.pick {
+  height: 20%;
+}
+
+.pick > span {
+  height: 45%;
+  padding: 3% 0 0 0;
+  color: rgb(255, 136, 0);
+  font-size: 0.3rem;
+  font-weight: 500;
+  
+}
+
+.pick > h2 {
+  height: 40%;
+  padding: 0 0 1% 0;
+}
+
+.pick > ul {
+  height: 20%;
+}
+
+
+.dish {
+  height: 80%;
+  padding: 3% 10%;
+}
+
+.dish > div {
+  width: 25%;
+  height: 50%;
+  float: left;
+  margin-bottom: 1%;
+}
+
+.book { 
+  height: 20%;
+}
+
+.call {
+  height: 10%;
+  padding-top: 5%;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20192218.png?v=1686799353610') 50% 50% no-repeat; 
+}
+
+.book > * {
+  height: 50%;
+}
+
+.dual {
+  height: 5%;
+}
+
+.video {
+  height: 65%;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/vid.png?v=1686799040906') 50% 80% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191139.png?v=1686799060669') 85% 50% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191158.png?v=1686799063895') 15% 50% no-repeat;
+}
+
+.review > .test {
+  height: 20%;
+}
+
+.review > .test .small {
+  display: block;
+  color: rgb(255, 149, 37);
+  font-size: 0.3rem;
+  font-weight: 500;
+  
+}
+
+.review > .statement {
+  height: 40%;
+}
+
+.review > .person {
+  height: 40%;
+}
+
+.email {
+  font-family: inherit;
+  font-weight: 600;
+  border: thin solid rgb(167, 168, 201);
+  border-radius: 5px;
+  width: 50%;
+  padding: 2.5%;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20190414.png?v=1686971080261') 100% 50% no-repeat white;
+}
+
+
+footer {
+  height: 30%;
+  background: rgb(242, 246, 247);
+}
+
+footer > section {
+  height: 80%;
+  padding: 1% 5% 2% 10%;
+}
+
+footer > section > div {
+  float: left;
+}
+
+footer > section > .rect {
+  width: 40%;
+  height: 100%;
+}
+
+footer > section > .square{
+  width: 20%;
+  height: 100%;
+}
+
+footer > section > .square > * {
+  display: block;
+}
+
+footer > div {
+  height: 20%;
+  border-top: thin solid rgb(220, 228, 230);
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191407.png?v=1686799079654') 75% 50% no-repeat;
+}
+
+footer > div > span {
+  display: block;
+  height: 100%;
+  padding: 1% 0 1% 10%;
+  font-size: 0.2rem;
+  font-weight: 600;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header nav ul li a {
+  display:block;
+  height: 100%;
+  color: rgb(40, 40, 77);
+  font-size: 0.25rem;
+  font-weight: 600;
+}
+
+.top {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/restaurant1.png?v=1686798938664') no-repeat;
+}
+.top > main > form {
+  font-size: 0;
+}
+
+.top > main > form > input {
+  display: inline-block;
+  width: 35%;
+  padding: 0.75% 0 0.75% 2%;
+  font-size: 0.22rem;
+  font-weight: 500;
+  border: thin solid rgb(187, 187, 187);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20102619.png?v=1687199201769') 0.5% 30% no-repeat white;
+  caret-color: rgb(255, 136, 0);
+}
+
+.top > main > form > select {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  background: rgb(255, 136, 0);
+  border: thin solid rgb(255, 136, 0);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 8%;
+  text-align: center;
+  padding: 0.7% 0;
+  
+} 
+
+
+.about {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/restaurant2.png?v=1686798971823') no-repeat;
+}
+
+.top,
+.about {
+  background-size: 100% auto;
+}
+
+.about > div span,
+.about > div h2,
+.about > div p {
+  padding: 0 20% 0 40%; 
+}
+
+.about > div button {
+  margin-left: 40%;
+}
+
+.about > div span {
+  color: rgb(255, 136, 0);
+  font-size: 0.4rem;
+  font-weight: 500;
+}
+
+.about > div p {
+  color: rgb(75, 75, 106);
+  font-size: 0.25rem;
+  font-weight: 500;
+  line-height: 2;
+  padding-top: 1%;
+}
+
+
+
+header li,
+main > ul li,
+.pick li {
+  display: inline-block;
+}
+
+main > ul li {
+  font-size: 0.3rem;
+  font-weight: 600;
+  width: 10%;
+  padding: 0.5% 0 0.5% 3%;
+}
+
+main > ul .fb {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/fb.png?v=1686798954615') no-repeat;
+  
+}
+
+main > ul .twit {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/twit.png?v=1686798958993') no-repeat;
+}
+
+main > ul .gram {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/insta.png?v=1686798963435') no-repeat;
+}
+
+
+header ul {
+  text-align: right;
+  margin: 0 15% 0 0;
+}
+
+header li {
+  text-align: center;
+  width: 6%;
+  height: 100%;
+  padding: 2% 0 0 0;
+}
+
+main > form,
+main > ul  {
+  padding: 0 0 0 10%;
+}
+
+.pick > * {
+  display: block;
+  text-align: center;
+}
+
+.pick > ul li {
+  width: 8%;
+  border-bottom: thin solid rgb(212, 214, 215);
+  padding-bottom: 1%;
+  font-size: 0.35rem;
+  color: black;
+  font-weight: 500;
+  
+}
+
+.pick > ul li:hover {
+  border-bottom: thin solid rgb(255, 136, 0);
+  color:rgb(255, 136, 0);
+}
+
+
+.dish > div span,
+.video > span {
+  display: none;
+}
+
+.dish > .dish1 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food1.png?v=1686798980973') no-repeat;
+}
+.dish > .dish2 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food2.png?v=1686798983900') no-repeat;
+}
+.dish > .dish3 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food3.png?v=1686798987095') no-repeat;
+}
+.dish > .dish4 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food4.png?v=1686798991620') no-repeat;
+}
+.dish > .dish5 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food5.png?v=1686798995358') no-repeat;
+}
+.dish > .dish6 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food6.png?v=1686798999755') no-repeat;
+}
+.dish > .dish7 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food7.png?v=1686799004714') no-repeat;
+}
+.dish > .dish8 {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food8.png?v=1686799024745') no-repeat;
+}
+
+.rowcouple > * {
+  text-align: center;
+}
+
+.rowcouple > span {
+  display: block;
+}
+
+.rowcouple > .topic {
+  font-size: 0.3rem;
+  font-weight: 500;
+  color: rgb(255, 136, 0);
+  padding-top: 3%;
+}
+
+.rowcouple > .dial {
+  font-size: 0.3rem;
+}
+
+.rowcouple > .number {
+  color: rgb(255, 136, 0);
+  font-weight: 600;
+}
+
+.dual > .col {
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-top: 4%;
+}
+
+.dual > .col span {
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+.dual > .leftcol {
+  text-align: right;
+  padding: 0 5% 0 0 
+}
+
+.dual > .leftcol > .day {
+  padding-right: 32.5%;
+}
+
+.dual > .leftcol > .time {
+  padding-right: 13%;
+}
+
+.dual > .leftcol > .day,
+.dual > .rightcol > .day {
+  font-size: 0.4rem;
+  font-weight: 600;
+}
+
+.dual > .leftcol > .time,
+.dual > .rightcol > .time {
+  font-size: 0.8rem;
+}
+
+.dual > .rightcol {
+  padding: 0 0 0 10%; 
+}
+
+
+.reserve {
+  background: rgb(253, 253, 254);
+}
+
+.order {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/dots.jpg?v=1686952193754')  50% 98% no-repeat rgb(242, 246, 247);
+}
+
+.review {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/gray-quotation-marks-md.png?v=1686955589066') 50% 80% no-repeat;
+  background-size: 10%;
+}
+
+.review > div span {
+  display: block;
+}
+
+.statement p {
+  color: rgb(66, 66, 98);
+  font-size: 0.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-style: italic;
+  text-align: center;
+  padding: 3% 15%;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20at%2019-32-21%20Cuisine%20Restaurant%20Website.png?v=1686972778824')  50% 98% no-repeat;
+}
+
+.person {
+  text-align: center;
+  padding: 10% 0 0 0;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191233.png?v=1686799067272') 50% 10% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191337.png?v=1686799070866') 50% 100% no-repeat;
+}
+
+.test {
+  text-align: center;
+  padding: 3% 0 0 0;
+}
+
+footer > section > .logo {
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191354.png?v=1686799074341') no-repeat;
+
+}
+
+footer > section > .logo .slogan {
+  display: block;
+  height: 100%;
+  padding: 35% 5% 0 5%;
+  font-size: 0.22rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+footer > section > .square li {
+  line-height: 2.5;
+  font-size: 0.23em;
+  font-weight: 500;
+}
+
+footer > section > div h3 {
+  display: block;
+  width: 100%;
+  height: 35%;
+}
+
+.name {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.title {
+  color: rgb(148, 148, 160);
+  font-size: 0.3rem;
+  font-weight: 500; 
+}
+
+.btn {
+  color: white;
+  font-weight: 500;
+  width: 15%;
+  border: thin solid rgb(255, 136, 0);
+  border-radius: 5px;
+  background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20104430.png?v=1687200285940') 100% 50% no-repeat rgb(255, 136, 0);
+  background-size: 31%;
+  padding: 1% 3% 1% 1%;
+  text-align: left;
+}
+
+.contact > address > ul > .addy > a ,
+.contact > address > ul > .tele > a {
+  text-decoration: underline;
+  color: rgb(255, 136, 0);  
+}
+
+}
+
+/**********************************************************
+          Media Query: 1141-1399px
+***********************************************************/
+@media screen and (min-width: 1141px) and (max-width: 1399px) {
+  /* Box Model Hack */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 60px;
+    max-width: 1399px;
+    min-width: 1141px;
+    height: 961px;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  main > * {
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    padding: 0 40% 0 10%;
+    margin-top: 5%;
+    font-size: 1.75rem;
+    font-weight: 800;
+    
+  }
+  
+  h1,
+  h2,
+  h3,
+  .number,
+  .time {
+    font-family: 'Playfair', Helvetica, serif;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  h3 {
+    font-size: 0.6rem;
+    font-weight: 900;
+    padding: 1% 0 0 0;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    height: 10%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/cart.png?v=1686798944140') 92% 50% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/magnify.png?v=1686798949796') 96% 50% no-repeat;
+  }
+  
+  .box,
+  .big-box,
+  header,
+  footer, 
+  main,
+  h1,
+  main > form,
+  main > ul,
+  .about > div,
+  .pick,
+  .dish,
+  .pick > *,
+  .rowcouple > *,
+  .dual,
+  .video,
+  .review > div,
+  .review > div span,
+  footer > section,
+  footer > section > .square > *,
+  footer > section > .logo .slogan,
+  footer > div > span,
+  header nav ul li a {
+    width: 100%;
+  }
+  
+  
+  main {
+    height: 80%;
+  }
+  
+  .box {
+    height: 60%;
+  }
+  
+  .big-box {
+    height: 100%;
+  }
+  
+  .about > div {
+    height: 100%;
+    padding: 1% 0 0 0;
+    
+  }
+  
+  .pick {
+    height: 20%;
+  }
+  
+  .pick > span {
+    height: 30%;
+    padding: 2.5% 0 0 0;
+    color: rgb(255, 136, 0);
+    font-size: 0.3rem;
+    font-weight: 500;
+    
+  }
+  
+  .pick > h2 {
+    height: 40%;
+    
+  }
+  
+  .pick > ul {
+    height: 20%;
+  }
+  
+  
+  .dish {
+    height: 80%;
+    padding: 3% 4%;
+  }
+  
+  .dish > div {
+    width: 25%;
+    height: 50%;
+    float: left;
+    margin-bottom: 1%;
+    
+  }
+  
+  .book { 
+    height: 20%;
+  }
+  
+  .call {
+    height: 10%;
+    padding-top: 5%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20192218.png?v=1686799353610') 50% 50% no-repeat; 
+    background-size: 8%;
+  }
+  
+  .book > * {
+    height: 50%;
+  }
+  
+  .dual {
+    height: 5%;
+  }
+  
+  .video {
+    height: 65%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/vid.png?v=1686799040906') 50% 80% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191139.png?v=1686799060669') 95% 50% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191158.png?v=1686799063895') 5% 50% no-repeat;
+  }
+  
+  .review > .test {
+    height: 20%;
+  }
+  
+  .review > .test .small {
+    display: block;
+    color: rgb(255, 149, 37);
+    font-size: 0.3rem;
+    font-weight: 500;
+    
+  }
+  
+  .review > .statement {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191337.png?v=1686799070866') 50% 5% no-repeat;;
+    height: 40%;
+  }
+  
+  .review > .person {
+    height: 40%;
+  }
+  
+  .email {
+    font-family: inherit;
+    font-weight: 600;
+    border: thin solid rgb(167, 168, 201);
+    border-radius: 5px;
+    width: 50%;
+    padding: 2.5%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20190414.png?v=1686971080261') 100% 50% no-repeat white;
+  }
+  
+  
+  footer {
+    height: 30%;
+    background: rgb(242, 246, 247);
+  }
+  
+  footer > section {
+    height: 80%;
+    padding: 1% 5% 2% 5%;
+  }
+  
+  footer > section > div {
+    float: left;
+  }
+  
+  footer > section > .rect {
+    width: 40%;
+    height: 100%;
+  }
+  
+  footer > section > .square{
+    width: 20%;
+    height: 100%;
+  }
+  
+  footer > section > .square > * {
+    display: block;
+  }
+  
+  footer > div {
+    height: 20%;
+    border-top: thin solid rgb(220, 228, 230);
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191407.png?v=1686799079654') 75% 50% no-repeat;
+  }
+  
+  footer > div > span {
+    display: block;
+    height: 100%;
+    padding: 1% 0 1% 10%;
+    font-size: 0.2rem;
+    font-weight: 600;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  header nav ul li a {
+    display:block;
+    height: 100%;
+    color: rgb(40, 40, 77);
+    font-size: 0.25rem;
+    font-weight: 600;
+  }
+  
+  .top {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/restaurant1.png?v=1686798938664') no-repeat;
+  
+  }
+  .top > main > form {
+    font-size: 0;
+  }
+  
+  .top > main > form > input {
+    display: inline-block;
+    width: 35%;
+    padding: 0.75% 0 0.75% 2%;
+    font-size: 0.22rem;
+    font-weight: 500;
+    border: thin solid rgb(187, 187, 187);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20102619.png?v=1687199201769') 0.5% 30% no-repeat white;
+    caret-color: rgb(255, 136, 0);
+  }
+  
+  .top > main > form > select {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    background: rgb(255, 136, 0);
+    border: thin solid rgb(255, 136, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 8%;
+    text-align: center;
+    padding: 0.7% 0;
+    
+  } 
+  
+  
+  .about {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/restaurant2.png?v=1686798971823') no-repeat;
+  }
+
+  .about > div h2 {
+    font-size: 1rem;
+  }
+  
+  .top,
+  .about {
+    background-size: 100% auto;
+  }
+  
+  .about > div span,
+  .about > div h2 {
+    padding: 0 20% 0 40%; 
+  }
+  
+  .about > div p {
+    padding: 0 10% 0 40%;
+  }
+
+  .about > div button {
+    margin-left: 40%;
+  }
+  
+  .about > div span {
+    color: rgb(255, 136, 0);
+    font-size: 0.4rem;
+    font-weight: 500;
+  }
+  
+  .about > div p {
+    color: rgb(75, 75, 106);
+    font-size: 0.25rem;
+    font-weight: 500;
+    line-height: 2;
+    padding-top: 1%;
+  }
+  
+  
+  
+  header li,
+  main > ul li,
+  .pick li {
+    display: inline-block;
+  }
+  
+  main > ul li {
+    font-size: 0.3rem;
+    font-weight: 600;
+    width: 8%;
+    padding: 0.5% 0 0.5% 2.5%;
+  }
+  
+  main > ul .fb {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/fb.png?v=1686798954615') no-repeat;
+    
+  }
+  
+  main > ul .twit {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/twit.png?v=1686798958993') no-repeat;
+  }
+  
+  main > ul .gram {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/insta.png?v=1686798963435') no-repeat;
+  }
+  
+  
+  header ul {
+    text-align: right;
+    margin: 0 15% 0 0;
+  }
+  
+  header li {
+    text-align: center;
+    width: 8%;
+    height: 100%;
+    padding: 2% 0 0 0;
+  }
+  
+  main > form,
+  main > ul  {
+    padding: 0 0 0 10%;
+  }
+  
+  .pick > * {
+    display: block;
+    text-align: center;
+  }
+  
+  .pick > ul li {
+    width: 8%;
+    border-bottom: thin solid rgb(212, 214, 215);
+    padding-bottom: 1%;
+    font-size: 0.35rem;
+    color: black;
+    font-weight: 500;
+    
+  }
+  
+  .pick > ul li:hover {
+    border-bottom: thin solid rgb(255, 136, 0);
+    color:rgb(255, 136, 0);
+  }
+  
+  
+  .dish > div span,
+  .video > span {
+    display: none;
+  }
+  
+  .dish > .dish1 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food1.png?v=1686798980973') no-repeat;
+  }
+  .dish > .dish2 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food2.png?v=1686798983900') no-repeat;
+  }
+  .dish > .dish3 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food3.png?v=1686798987095') no-repeat;
+  }
+  .dish > .dish4 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food4.png?v=1686798991620') no-repeat;
+  }
+  .dish > .dish5 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food5.png?v=1686798995358') no-repeat;
+  }
+  .dish > .dish6 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food6.png?v=1686798999755') no-repeat;
+  }
+  .dish > .dish7 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food7.png?v=1686799004714') no-repeat;
+  }
+  .dish > .dish8 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food8.png?v=1686799024745') no-repeat;
+  }
+  
+  .rowcouple > * {
+    text-align: center;
+  }
+  
+  .rowcouple > span {
+    display: block;
+  }
+  
+  .rowcouple > .topic {
+    font-size: 0.3rem;
+    font-weight: 500;
+    color: rgb(255, 136, 0);
+    padding-top: 3%;
+  }
+  
+  .rowcouple > .dial {
+    font-size: 0.3rem;
+    display: block;
+    padding-top: 2%;
+  }
+  
+  .rowcouple > .number {
+    color: rgb(255, 136, 0);
+    font-weight: 600;
+  }
+  
+  .dual > .col {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 5%;
+  }
+  
+  .dual > .col span {
+    width: 100%;
+    height: 50%;
+    float: left;
+  }
+  
+  .dual > .leftcol {
+    text-align: right;
+    
+  }
+  
+  .dual > .leftcol > .day,
+  .dual > .leftcol > .time  {
+    padding-right: 20%;
+  }
+  
+  
+  
+  .dual > .leftcol > .day,
+  .dual > .rightcol > .day {
+    font-size: 0.4rem;
+    font-weight: 600;
+  }
+  
+  .dual > .leftcol > .time,
+  .dual > .rightcol > .time {
+    font-size: 0.8rem;
+  }
+  
+  .dual > .rightcol {
+    padding: 0 0 0 10%; 
+  }
+  
+  
+  .reserve {
+    background: rgb(253, 253, 254);
+  }
+  
+  .order {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/dots.jpg?v=1686952193754')  50% 98% no-repeat rgb(242, 246, 247);
+  }
+  
+  .review {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/gray-quotation-marks-md.png?v=1686955589066') 50% 80% no-repeat;
+    background-size: 10%;
+  }
+  
+  .review > div span {
+    display: block;
+  }
+  
+  .statement p {
+    color: rgb(66, 66, 98);
+    font-size: 0.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    padding: 3% 10%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20at%2019-32-21%20Cuisine%20Restaurant%20Website.png?v=1686972778824')  50% 98% no-repeat;
+  }
+  
+  .person {
+    text-align: center;
+    padding: 13% 0 0 0;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191233.png?v=1686799067272') 50% 10% no-repeat;
+  }
+  
+  .test {
+    text-align: center;
+    padding: 3% 0 0 0;
+  }
+  
+  footer > section > .logo {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191354.png?v=1686799074341') no-repeat;
+  
+  }
+  
+  footer > section > .logo .slogan {
+    display: block;
+    height: 100%;
+    padding: 50% 5% 0 5%;
+    font-size: 0.22rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
+  footer > section > .square li {
+    line-height: 2.5;
+    font-size: 0.23em;
+    font-weight: 500;
+  }
+  
+  footer > section > div h3 {
+    display: block;
+    width: 100%;
+    height: 35%;
+  }
+  
+  .name {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .title {
+    color: rgb(148, 148, 160);
+    font-size: 0.3rem;
+    font-weight: 500; 
+  }
+  
+  .btn {
+    color: white;
+    font-weight: 500;
+    width: 12%;
+    border: thin solid rgb(255, 136, 0);
+    border-radius: 5px;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20104430.png?v=1687200285940') 100% 50% no-repeat rgb(255, 136, 0);
+    background-size: 31%;
+    padding: 1% 3% 1% 1%;
+    text-align: left;
+  }
+  
+  .contact > address > ul > .addy > a ,
+  .contact > address > ul > .tele > a {
+    text-decoration: underline;
+    color: rgb(255, 136, 0);  
+  }
+  
+  
+}
+
+/**********************************************************
+          Media Query: 500px-1140px
+***********************************************************/
+@media screen and (min-width: 500px) and (max-width: 1140px) {
+  /* Box Model Hack */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 60px;
+    max-width: 1140px;
+    min-width: 500px;
+    height: 961px;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  main > * {
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    padding: 0 30% 0 10%;
+    margin-top: 5%;
+    font-size: 1.25rem;
+    font-weight: 800;
+    
+  }
+  
+  h1,
+  h2,
+  h3,
+  .number,
+  .time {
+    font-family: 'Playfair', Helvetica, serif;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  h3 {
+    font-size: 0.6rem;
+    font-weight: 900;
+    padding: 1% 0 0 0;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    height: 10%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/cart.png?v=1686798944140') 87% 50% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/magnify.png?v=1686798949796') 95% 50% no-repeat;
+  }
+  
+  .box,
+  .big-box,
+  header,
+  footer, 
+  main,
+  h1,
+  main > form,
+  main > ul,
+  .about > div,
+  .pick,
+  .dish,
+  .pick > *,
+  .rowcouple > *,
+  .dual,
+  .video,
+  .review > div,
+  .review > div span,
+  footer > section,
+  footer > section > .square > *,
+  footer > section > .logo .slogan,
+  footer > div > span,
+  header nav ul li a {
+    width: 100%;
+  }
+  
+  
+  main {
+    height: 80%;
+  }
+  
+  .box {
+    height: 60%;
+  }
+  
+  .big-box {
+    height: 100%;
+  }
+  
+  .about > div {
+    height: 100%;
+    padding: 1% 0 0 0;
+    
+  }
+  
+  .pick {
+    height: 20%;
+  }
+  
+  .pick > span {
+    height: 30%;
+    padding: 2.5% 0 0 0;
+    color: rgb(255, 136, 0);
+    font-size: 0.3rem;
+    font-weight: 500;
+    
+  }
+  
+  .pick > h2 {
+    height: 40%;
+    
+  }
+  
+  .pick > ul {
+    height: 20%;
+  }
+  
+  
+  .dish {
+    height: 80%;
+    padding: 3% 4%;
+  }
+  
+  .dish > div {
+    width: 25%;
+    height: 35%;
+    float: left;
+    margin-bottom: 1%;
+    
+  }
+  
+  .book { 
+    height: 25%;
+  }
+  
+  .call {
+    height: 25%;
+    
+  }
+  
+  .book > * {
+    height: 50%;
+  }
+
+  
+  .dual {
+    height: 40%;
+    padding: 0 0 0 5%;
+  }
+  
+  .video {
+    height: 65%;
+    
+  }
+  
+  .review > .test {
+    height: 25%;
+  }
+  
+  .review > .test .small {
+    display: block;
+    color: rgb(255, 149, 37);
+    font-size: 0.3rem;
+    font-weight: 500;
+    
+  }
+
+  .review > .test h2 {
+    font-size: 1.3rem;
+  }
+  
+  .review > .statement {
+    height: 40%;
+  }
+  
+  .review > .person {
+    height: 25%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191337.png?v=1686799070866') 50% 80% no-repeat;
+  }
+  
+  .email {
+    font-family: inherit;
+    font-weight: 600;
+    border: thin solid rgb(167, 168, 201);
+    border-radius: 5px;
+    width: 50%;
+    padding: 2.5%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20190414.png?v=1686971080261') 100% 50% no-repeat white;
+  }
+  
+  
+  footer {
+    height: 80%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191354.png?v=1686799074341') 50% 0 no-repeat rgb(242, 246, 247);
+    background-size: 15%;
+  }
+  
+  footer > section {
+    height: 80%;
+    padding: 1% 5% 2% 5%;
+  }
+  
+  
+  footer > section > .rect {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+  }
+  
+  footer > section > .square{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+  }
+  
+  footer > section > .square > * {
+    display: block;
+  }
+  
+  footer > div {
+    height: 20%;
+    border-top: thin solid rgb(220, 228, 230);
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191407.png?v=1686799079654') 50% 50% no-repeat;
+  }
+  
+  footer > div > span {
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding: 5% 0 1% 10%;
+    font-size: 0.2rem;
+    font-weight: 600;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  header nav ul li a {
+    display:block;
+    height: 100%;
+    color: rgb(40, 40, 77);
+    font-size: 0.25rem;
+    font-weight: 600;
+  }
+  
+  .top {
+    background: rgb(241, 246, 248);
+
+  }
+  .top > main > form {
+    font-size: 0;
+  }
+  
+  .top > main > form > input {
+    display: inline-block;
+    width: 35%;
+    padding: 0.75% 0 0.75% 6%;
+    font-size: 0.22rem;
+    font-weight: 500;
+    border: thin solid rgb(187, 187, 187);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20102619.png?v=1687199201769') 0.5% 30% no-repeat white;
+    caret-color: rgb(255, 136, 0);
+  }
+  
+  .top > main > form > select {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    background: rgb(255, 136, 0);
+    border: thin solid rgb(255, 136, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 0.7% 0;
+    
+  } 
+  
+  
+  .about {
+    background: rgb(241, 246, 248);
+  }
+
+  .about > div h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .top,
+  .about {
+    background-size: 100% auto;
+  }
+  
+  .about > div p {
+    text-align: center;
+    padding: 0 5%;
+  }
+
+  .about > div button {
+    margin-left: 40%;
+  }
+  
+  .about > div span {
+    display: block;
+    color: rgb(255, 136, 0);
+    font-size: 0.4rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .about > div p {
+    color: rgb(75, 75, 106);
+    font-size: 0.25rem;
+    font-weight: 500;
+    line-height: 2;
+    padding-top: 1%;
+  }
+  
+  
+  
+  header li,
+  main > ul li,
+  .pick li {
+    display: inline-block;
+  }
+  
+  main > ul li {
+    font-size: 0.3rem;
+    font-weight: 600;
+    width: 15%;
+    padding: 0.75% 0 0.5% 6%;
+  }
+  
+  main > ul .fb {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/fb.png?v=1686798954615') no-repeat;
+    
+  }
+  
+  main > ul .twit {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/twit.png?v=1686798958993') no-repeat;
+  }
+  
+  main > ul .gram {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/insta.png?v=1686798963435') no-repeat;
+  }
+  
+  
+  header ul {
+    text-align: center;
+    margin: 0 15% 0 0;
+  }
+  
+  header li {
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    padding: 2% 0 0 0;
+  }
+  
+  main > form,
+  main > ul  {
+    padding: 0 0 0 10%;
+  }
+  
+  .pick > * {
+    display: block;
+    text-align: center;
+  }
+
+  .pick > h2 {
+    font-size: 1rem;
+    padding: 0 2%;
+    margin-bottom: 1%;
+    
+  }
+  
+  .pick > ul li {
+    width: 15%;
+    border-bottom: thin solid rgb(212, 214, 215);
+    padding-bottom: 1%;
+    font-size: 0.30rem;
+    color: black;
+    font-weight: 500;
+    
+  }
+  
+  .pick > ul li:hover {
+    border-bottom: thin solid rgb(255, 136, 0);
+    color:rgb(255, 136, 0);
+  }
+  
+  
+  .dish > div span,
+  .video  {
+    display: none;
+  }
+  
+  .dish > .dish1 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food1.png?v=1686798980973') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish2 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food2.png?v=1686798983900') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish3 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food3.png?v=1686798987095') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish4 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food4.png?v=1686798991620') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish5 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food5.png?v=1686798995358') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish6 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food6.png?v=1686798999755') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish7 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food7.png?v=1686799004714') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish8 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food8.png?v=1686799024745') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+
+  
+  .rowcouple > * {
+    text-align: center;
+  }
+
+  
+  .rowcouple > span {
+    display: block;
+  }
+
+  .rowcouple > h2 {
+    font-size: 1rem;
+  }
+  
+  .rowcouple > .topic {
+    font-size: 0.3rem;
+    font-weight: 500;
+    color: rgb(255, 136, 0);
+    padding-top: 7%;
+  }
+  
+  .rowcouple > .dial {
+    font-size: 0.3rem;
+    display: block;
+    
+  }
+  
+  .rowcouple > .number {
+    font-size: 0.9rem;
+    color: rgb(255, 136, 0);
+    font-weight: 600;
+  }
+  
+  .dual > .col {
+    width: 100%;
+    height: 25%;
+    margin-top: 10%;
+  }
+  
+  .dual > .col span {
+    width: 100%;
+    height: 50%;
+    float: left;
+  }
+  
+  .dual > .leftcol {
+    text-align: center;
+    
+    
+  }
+  
+  
+  .dual > .leftcol > .day,
+  .dual > .rightcol > .day {
+    font-size: 0.4rem;
+    font-weight: 600;
+  }
+  
+  .dual > .leftcol > .time,
+  .dual > .rightcol > .time {
+    font-size: 0.8rem;
+  }
+  
+  .dual > .rightcol {
+    text-align: center;
+    
+  }
+  
+  
+  .reserve {
+    background: rgb(253, 253, 254);
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20192218.png?v=1686799353610') 50% 45% no-repeat; 
+    background-size: 20%;
+    
+  }
+  
+  .order {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/dots.jpg?v=1686952193754')  50% 80% no-repeat rgb(242, 246, 247);
+  }
+  
+  .review {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/gray-quotation-marks-md.png?v=1686955589066') 50% 60% no-repeat;
+    background-size: 10%;
+    height: 80%;
+
+  }
+  
+  .review > div span {
+    display: block;
+  }
+  
+  .statement p {
+    color: rgb(66, 66, 98);
+    font-size: 0.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    padding: 3% 10%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20at%2019-32-21%20Cuisine%20Restaurant%20Website.png?v=1686972778824')  50% 99% no-repeat;
+  }
+  
+  .person {
+    text-align: center;
+    padding: 5% 0 0 0;
+    
+  }
+  
+  .test {
+    text-align: center;
+    padding: 3% 0 0 0;
+  }
+  
+  footer > section > .logo {
+    height: 20%;
+  }
+  
+  footer > section > .logo .slogan {
+    display: block;
+    text-align: center;
+    height: 25%;
+    padding: 10% 10% 0 10%;
+    font-size: 0.22rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
+  footer > section > .square li {
+    line-height: 2.5;
+    font-size: 0.23em;
+    font-weight: 500;
+  }
+  
+  footer > section > div h3 {
+    display: block;
+    width: 100%;
+    height: 35%;
+  }
+  
+  footer > section > .hours, 
+  footer > section > .contact,
+  footer > section > .rect {
+    margin-bottom: 2%;
+  }
+
+  .name {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .title {
+    color: rgb(148, 148, 160);
+    font-size: 0.3rem;
+    font-weight: 500; 
+  }
+  
+  .btn {
+    color: white;
+    font-weight: 500;
+    width: 25%;
+    border: thin solid rgb(255, 136, 0);
+    border-radius: 5px;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20104430.png?v=1687200285940') 100% 50% no-repeat rgb(255, 136, 0);
+    background-size: 31%;
+    padding: 1% 4% 1% 1%;
+    text-align: left;
+  }
+  
+  .contact > address > ul > .addy > a ,
+  .contact > address > ul > .tele > a {
+    text-decoration: underline;
+    color: rgb(255, 136, 0);  
+  }
+  
+  
+}
+
+/**********************************************************
+          Media Query: 360px-499px
+***********************************************************/
+@media screen and (min-width: 360px) and (max-width: 499px) {
+  /* Box Model Hack */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 60px;
+    max-width: 499px;
+    min-width: 360px;
+    height: 961px;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  main > * {
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    padding: 0 10%;
+    margin-top: 5%;
+    font-size: 1.25rem;
+    font-weight: 800;
+    
+  }
+  
+  h1,
+  h2,
+  h3,
+  .number,
+  .time {
+    font-family: 'Playfair', Helvetica, serif;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  h3 {
+    font-size: 0.6rem;
+    font-weight: 900;
+    padding: 1% 0 0 0;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    height: 10%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/cart.png?v=1686798944140') 80% 50% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/magnify.png?v=1686798949796') 95% 50% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/hd-black-menu-burger-icon-transparent-background-31634946207uno2yrzogi.png?v=1687323613574') 5% 55% /10% no-repeat;
+  }
+  
+  .box,
+  .big-box,
+  header,
+  footer, 
+  main,
+  h1,
+  main > form,
+  main > ul,
+  .about > div,
+  .pick,
+  .dish,
+  .pick > *,
+  .rowcouple > *,
+  .dual,
+  .video,
+  .review > div,
+  .review > div span,
+  footer > section,
+  footer > section > .square > *,
+  footer > section > .logo .slogan,
+  footer > div > span,
+  header nav ul li a {
+    width: 100%;
+  }
+  
+  
+  main {
+    text-align: center;
+    height: 80%;
+  }
+  
+  .box {
+    height: 60%;
+  }
+  
+  .big-box {
+    height: 100%;
+  }
+  
+  .about > div {
+    text-align: center;
+    height: 100%;
+    padding: 1% 0 0 0;
+    
+  }
+  
+  .pick {
+    height: 20%;
+  }
+  
+  .pick > span {
+    height: 30%;
+    padding: 2.5% 0 0 0;
+    color: rgb(255, 136, 0);
+    font-size: 0.3rem;
+    font-weight: 500;
+    
+  }
+  
+  .pick > h2 {
+    height: 40%;
+    
+  }
+  
+  .pick > ul {
+    height: 20%;
+  }
+  
+  
+  .dish {
+    height: 80%;
+    padding: 3% 4%;
+  }
+  
+  .dish > div {
+    width: 25%;
+    height: 35%;
+    float: left;
+    margin-bottom: 1%;
+    
+  }
+  
+  .book { 
+    height: 25%;
+  }
+  
+  .call {
+    height: 25%;
+    
+  }
+  
+  .book > * {
+    height: 50%;
+  }
+
+  
+  .dual {
+    height: 40%;
+    padding: 0 0 0 5%;
+  }
+  
+  .video {
+    height: 65%;
+    
+  }
+  
+  .review > .test {
+    height: 25%;
+  }
+  
+  .review > .test .small {
+    display: block;
+    color: rgb(255, 149, 37);
+    font-size: 0.3rem;
+    font-weight: 500;
+    
+  }
+
+  .review > .test h2 {
+    font-size: 1.3rem;
+  }
+  
+  .review > .statement {
+    height: 40%;
+  }
+  
+  .review > .person {
+    height: 25%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191337.png?v=1686799070866') 50% 80% no-repeat;
+  }
+  
+  .email {
+    font-family: inherit;
+    font-weight: 600;
+    border: thin solid rgb(167, 168, 201);
+    border-radius: 5px;
+    width: 50%;
+    padding: 2.5%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20190414.png?v=1686971080261') 100% 50% no-repeat white;
+  }
+  
+  
+  footer {
+    height: 80%;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191354.png?v=1686799074341') 50% 0 no-repeat rgb(242, 246, 247);
+    background-size: 15%;
+  }
+  
+  footer > section {
+    height: 80%;
+    padding: 1% 5% 2% 5%;
+  }
+  
+  
+  footer > section > .rect {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+  }
+  
+  footer > section > .square{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+  }
+  
+  footer > section > .square > * {
+    display: block;
+  }
+  
+  footer > div {
+    height: 20%;
+    border-top: thin solid rgb(220, 228, 230);
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20191407.png?v=1686799079654') 50% 50% no-repeat;
+  }
+  
+  footer > div > span {
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding: 5% 0 1% 10%;
+    font-size: 0.2rem;
+    font-weight: 600;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  header nav ul li a {
+    display:block;
+    height: 100%;
+    color: rgb(40, 40, 77);
+    font-size: 0.25rem;
+    font-weight: 600;
+  }
+  
+  .top {
+    background: rgb(241, 246, 248);
+
+  }
+  .top > main > form {
+    font-size: 0;
+  }
+  
+  .top > main > form > input {
+    display: inline-block;
+    width: 60%;
+    padding: 0.75% 0 0.75% 7%;
+    font-size: 0.22rem;
+    font-weight: 500;
+    border: thin solid rgb(187, 187, 187);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20102619.png?v=1687199201769') 0.5% 30% no-repeat white;
+    caret-color: rgb(255, 136, 0);
+  }
+  
+  .top > main > form > select {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    background: rgb(255, 136, 0);
+    border: thin solid rgb(255, 136, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 25%;
+    text-align: center;
+    padding: 0.7% 0;
+    
+  } 
+  
+  
+  .about {
+    background: rgb(241, 246, 248);
+    height: 75% ;
+  }
+
+  .about > div h2 {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1% 0;
+  }
+  
+  .top,
+  .about {
+    background-size: 100% auto;
+  }
+  
+  
+  .about > div span {
+    display: block;
+    color: rgb(255, 136, 0);
+    font-size: 0.4rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .about > div p {
+    color: rgb(75, 75, 106);
+    font-size: 0.25rem;
+    font-weight: 500;
+    line-height: 2;
+    text-align: center;
+    padding: 1% 5% 0 5%;
+  }
+  
+  
+  
+  header li,
+  main > ul li,
+  .pick li {
+    display: inline-block;
+  }
+  
+  main > ul li {
+    font-size: 0.3rem;
+    font-weight: 600;
+    width: 20%;
+    padding: 0.75% 0 0.5% 6%;
+  }
+  
+  main > ul .fb {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/fb.png?v=1686798954615') no-repeat;
+    background-size: 23%;
+    
+  }
+  
+  main > ul .twit {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/twit.png?v=1686798958993') no-repeat;
+    background-size: 33%;
+  }
+  
+  main > ul .gram {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/insta.png?v=1686798963435') no-repeat;
+    background-size: 33%;
+  }
+  
+  
+  header ul {
+    display: none;
+    text-align: center;
+    margin: 0 15% 0 0;
+  }
+  
+  header li {
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    padding: 2% 0 0 0;
+  }
+  
+  main > form,
+  main > ul  {
+    padding: 0 0 0 10%;
+  }
+  
+  .pick > * {
+    display: block;
+    text-align: center;
+  }
+
+  .pick > h2 {
+    font-size: 1rem;
+    padding: 0 2%;
+    margin-bottom: 5%;
+    
+  }
+  
+  .pick > ul li {
+    width: 15%;
+    border-bottom: thin solid rgb(212, 214, 215);
+    padding-bottom: 1%;
+    font-size: 0.25rem;
+    color: black;
+    font-weight: 500;
+    
+  }
+  
+  .pick > ul li:hover {
+    border-bottom: thin solid rgb(255, 136, 0);
+    color:rgb(255, 136, 0);
+  }
+  
+  
+  .dish > div span,
+  .video  {
+    display: none;
+  }
+  
+  .dish > .dish1 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food1.png?v=1686798980973') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish2 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food2.png?v=1686798983900') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish3 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food3.png?v=1686798987095') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish4 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food4.png?v=1686798991620') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish5 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food5.png?v=1686798995358') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish6 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food6.png?v=1686798999755') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish7 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food7.png?v=1686799004714') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+  .dish > .dish8 {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/food8.png?v=1686799024745') 50% 50% no-repeat;
+    background-size: 80%;
+  }
+
+  
+  .rowcouple > * {
+    text-align: center;
+  }
+
+  
+  .rowcouple > span {
+    display: block;
+  }
+
+  .rowcouple > h2 {
+    font-size: 1rem;
+  }
+  
+  .rowcouple > .topic {
+    font-size: 0.3rem;
+    font-weight: 500;
+    color: rgb(255, 136, 0);
+    padding-top: 7%;
+  }
+  
+  .rowcouple > .dial {
+    font-size: 0.3rem;
+    display: block;
+    
+  }
+  
+  .rowcouple > .number {
+    font-size: 0.9rem;
+    color: rgb(255, 136, 0);
+    font-weight: 600;
+  }
+  
+  .dual > .col {
+    width: 100%;
+    height: 25%;
+    margin-top: 10%;
+  }
+  
+  .dual > .col span {
+    width: 100%;
+    height: 50%;
+    float: left;
+  }
+  
+  .dual > .leftcol {
+    text-align: center;
+    
+    
+  }
+  
+  
+  .dual > .leftcol > .day,
+  .dual > .rightcol > .day {
+    font-size: 0.4rem;
+    font-weight: 600;
+  }
+  
+  .dual > .leftcol > .time,
+  .dual > .rightcol > .time {
+    font-size: 0.8rem;
+  }
+  
+  .dual > .rightcol {
+    text-align: center;
+    
+  }
+  
+  
+  .reserve {
+    background: rgb(253, 253, 254);
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-14%20192218.png?v=1686799353610') 50% 40% no-repeat; 
+    background-size: 30%;
+    
+  }
+  
+  .order {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/dots.jpg?v=1686952193754')  50% 80% no-repeat rgb(242, 246, 247);
+  }
+  
+  .review {
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/gray-quotation-marks-md.png?v=1686955589066') 50% 60%/40% no-repeat, url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-16%20at%2019-32-21%20Cuisine%20Restaurant%20Website.png?v=1686972778824')  50% 95% no-repeat;
+    height: 80%;
+
+  }
+  
+  .review > div span {
+    display: block;
+  }
+  
+  .statement p {
+    color: rgb(66, 66, 98);
+    font-size: 0.35rem;
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    padding: 3% 10%;
+  }
+  
+  .person {
+    text-align: center;
+    padding: 5% 0 0 0;
+    
+  }
+  
+  .test {
+    text-align: center;
+    padding: 3% 0 0 0;
+  }
+  
+  footer > section > .logo {
+    height: 20%;
+  }
+  
+  footer > section > .logo .slogan {
+    display: block;
+    text-align: center;
+    height: 25%;
+    padding: 10% 10% 0 10%;
+    font-size: 0.22rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
+  footer > section > .square li {
+    line-height: 2.5;
+    font-size: 0.23em;
+    font-weight: 500;
+  }
+  
+  footer > section > div h3 {
+    display: block;
+    width: 100%;
+    height: 35%;
+  }
+  
+  footer > section > .hours, 
+  footer > section > .contact,
+  footer > section > .rect {
+    margin-bottom: 2%;
+  }
+
+  .name {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .title {
+    color: rgb(148, 148, 160);
+    font-size: 0.3rem;
+    font-weight: 500; 
+  }
+  
+  .btn {
+    color: white;
+    font-weight: 500;
+    width: 35%;
+    border: thin solid rgb(255, 136, 0);
+    border-radius: 5px;
+    background: url('https://cdn.glitch.global/0e34717b-740c-4604-a1b6-658870ffd1a6/Screenshot%202023-06-19%20104430.png?v=1687200285940') 100% 50% no-repeat rgb(255, 136, 0);
+    background-size: 31%;
+    padding: 1% 4% 1% 1%;
+    text-align: left;
+  }
+  
+  .contact > address > ul > .addy > a ,
+  .contact > address > ul > .tele > a {
+    text-decoration: underline;
+    color: rgb(255, 136, 0);  
+  }
+  
+  
+}

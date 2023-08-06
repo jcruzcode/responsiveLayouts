@@ -1,0 +1,1016 @@
+/* Media Query #1 */
+
+@media screen and (min-width: 1799px) and (max-width: 1920px) {
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     max-width: 1920px;
+     max-height: 961px;
+     font: 600 60px/1.25 'Source Serif Pro', 'Noto Serif', serif;
+}
+
+h1{
+     width: 100%;
+     padding-top: 30%;  
+}
+
+p {
+     font-size: 30%;
+     font-weight: 400;
+     line-height: 2;
+     padding-top: 5%;
+     padding-bottom: 5%; 
+     
+}
+
+
+.container .right-box a {
+     display: inline-block;
+     width: 23%;
+     text-align: center;
+     background-color: #2f66f2;
+     border: 15px solid #2f66f2;
+     border-radius: 8%;
+     font-size: 30%;
+     text-decoration: none;
+     color: white;
+     
+
+}
+
+p,
+a, 
+header {
+     font-family: 'Lato', 'Noto Serif', Helvetica, serif ;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container {
+     width: 70%;
+     margin: 0 15% 0 15%;
+}
+
+nav {
+     width: 90%;
+     margin: 0 10%;
+     padding-bottom: 1%;
+}
+
+header {
+     height: 10%;
+     border-bottom: thin solid #dedfe1;
+}
+
+header a {
+     text-decoration: none;
+     color: #3771f3;
+     font-size: 30%;
+     padding-right: 2.5%;
+}
+
+nav .logo {
+     color: #0f2a66;
+     font-size: 45%;
+     padding: 0 18% 0% 22%;
+     background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20at%2023-43-43%20Khan%20Academy%20Free%20Online%20Courses%20Lessons%20%26%20Practice.png?v=1684568646066') 40% 0 no-repeat;
+     
+}
+
+.box {
+     width: 50%;
+     height: 100%;
+     float: left;
+}
+
+.left-box {
+     padding-top: 5%;
+}
+
+.left-box img {
+     width: 100%;
+}
+.right-box {
+     background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20144946.png?v=1684536656850') 40% 65% no-repeat;
+     padding-left: 10%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.search {
+     border: 12px solid #f0f1f2;
+     background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235642.png?v=1684569506279') 100% 0  no-repeat #f0f1f2;
+     background-size: 15%;
+     padding-right: 10%;
+}
+
+.courses {
+     background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235613.jpg?v=1684569517551') 85% 0 no-repeat;
+     background-size: 20%; 
+}
+
+}
+
+/* Media Query #2 */
+
+@media screen and (min-width: 1200px) and (max-width: 1798px) {
+     /* Box Model Hack */
+     * {
+          box-sizing: border-box;
+     }
+     
+     /* Clear fix hack */
+     .clearfix:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+     }
+     
+     .clear {
+          clear: both;
+     }
+     
+     /******************************************
+     /* BASE STYLES
+     /*******************************************/
+     html {
+          font-size: 60px;
+     }
+     body {
+          max-width: 1798px;
+          max-height: 961px;
+          font: 600 1rem/1.25 'Source Serif Pro', 'Noto Serif', serif;
+     }
+     
+     h1{
+          width: 100%;
+          padding-top: 30%;  
+          font-size: 0.9rem;
+     }
+     
+     p {
+          font-size: 30%;
+          font-weight: 400;
+          line-height: 2;
+          padding-top: 5%;
+          padding-bottom: 5%; 
+          
+     }
+     
+     
+     .container .right-box a {
+          display: inline-block;
+          width: 22%;
+          text-align: center;
+          background-color: #2f66f2;
+          border: 15px solid #2f66f2;
+          border-radius: 8%;
+          font-size: 20%;
+          text-decoration: none;
+          color: white;
+     
+     }
+     
+     p,
+     a, 
+     header {
+          font-family: 'Lato', 'Noto Serif', Helvetica, serif ;
+     }
+     /******************************************
+     /* LAYOUT
+     /*******************************************/
+     
+     .container {
+          width: 70%;
+          margin: 0 15% 0 15%;
+     }
+     
+     nav {
+          width: 90%;
+          margin: 0 10%;
+          padding-bottom: 1%;
+     }
+     
+     header {
+          height: 10%;
+          border-bottom: thin solid #dedfe1;
+     }
+     
+     header a {
+          text-decoration: none;
+          color: #3771f3;
+          font-size: 30%;
+          padding-right: 2.5%;
+     }
+     
+     nav .logo {
+          color: #0f2a66;
+          font-size: 45%;
+          padding: 0 10% 0% 11%;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20at%2023-43-43%20Khan%20Academy%20Free%20Online%20Courses%20Lessons%20%26%20Practice.png?v=1684568646066') 20% 0 no-repeat;
+          
+     }
+     
+     .box {
+          width: 50%;
+          height: 100%;
+          float: left;
+     }
+     
+     .left-box {
+          padding-top: 5%;
+     }
+     
+     .left-box img {
+          width: 100%;
+     }
+     .right-box {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20144946.png?v=1684536656850') 40% 65% no-repeat;
+          padding-left: 10%;
+          width: 50%;
+     }
+     
+     /******************************************
+     /* ADDITIONAL STYLES
+     /*******************************************/
+     
+     .search {
+          border: 12px solid #f0f1f2;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235642.png?v=1684569506279') 100% 0  no-repeat #f0f1f2;
+          background-size: 15%;
+          padding-right: 10%;
+     }
+     
+     .courses {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235613.jpg?v=1684569517551') 85% 0 no-repeat;
+          background-size: 20%; 
+     }
+     
+}
+
+/* Media Query #3 */
+
+@media screen and (min-width: 957px) and (max-width: 1199px) {
+     /* Box Model Hack */
+     * {
+          box-sizing: border-box;
+     }
+     
+     /* Clear fix hack */
+     .clearfix:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+     }
+     
+     .clear {
+          clear: both;
+     }
+     
+     /******************************************
+     /* BASE STYLES
+     /*******************************************/
+     html {
+          font-size: 60px;
+     }
+     body {
+          max-width: 1199px;
+          max-height: 961px;
+          font: 600 1rem/1.25 'Source Serif Pro', 'Noto Serif', serif;
+     }
+     
+     h1{
+          width: 100%;
+            
+          font-size: 0.9rem;
+     }
+     
+     p {
+          font-size: 30%;
+          font-weight: 400;
+          line-height: 2;
+          padding-top: 5%;
+          padding-bottom: 5%; 
+          
+     }
+     
+     
+     .container .right-box a {
+          display: inline-block;
+          width: 22%;
+          text-align: center;
+          background-color: #2f66f2;
+          border: 15px solid #2f66f2;
+          border-radius: 8%;
+          font-size: 20%;
+          text-decoration: none;
+          color: white;
+     
+     }
+     
+     p,
+     a, 
+     header {
+          font-family: 'Lato', 'Noto Serif', Helvetica, serif ;
+     }
+     /******************************************
+     /* LAYOUT
+     /*******************************************/
+     
+     .container {
+          width: 70%;
+          margin: 0 15% 0 15%;
+     }
+     
+     nav {
+          width: 90%;
+          margin: 0 10%;
+          padding-bottom: 1%;
+     }
+     
+     header {
+          height: 10%;
+          border-bottom: thin solid #dedfe1;
+     }
+     
+     header a {
+          text-decoration: none;
+          color: #3771f3;
+          font-size: 30%;
+          padding-right: 2.5%;
+     }
+     
+     nav .logo {
+          color: #0f2a66;
+          font-size: 40%;
+          padding-left: 40%;
+          padding-right: 30%;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20at%2023-43-43%20Khan%20Academy%20Free%20Online%20Courses%20Lessons%20%26%20Practice.png?v=1684568646066') 40% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114055.jpg?v=1685389403626') 100% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114110.png?v=1685389405912') 0 50% no-repeat;
+          
+     }
+     
+     .box {
+          width: 50%;
+          height: 100%;
+          float: left;
+     }
+     
+     .left-box {
+          padding-top: 5%;
+          width: 100%;
+     }
+     
+     .left-box img {
+          padding-top: 5%;
+          width: 100%;
+     }
+     .right-box {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20144946.png?v=1684536656850') 20% 40% no-repeat;
+          padding-left: 10%;
+          width: 100%;
+     }
+     
+     /******************************************
+     /* ADDITIONAL STYLES
+     /*******************************************/
+     
+     .search {
+          border: 12px solid #f0f1f2;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235642.png?v=1684569506279') 100% 0  no-repeat #f0f1f2;
+          background-size: 15%;
+          padding-right: 10%;
+     }
+     
+     .courses {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235613.jpg?v=1684569517551') 85% 0 no-repeat;
+          background-size: 20%; 
+     }
+
+     .courses,
+     .search,
+     .link {
+          display: none;
+     }
+     
+}
+
+/* Media Query #4 */
+
+@media screen and (min-width: 851px) and (max-width: 956px) {
+     /* Box Model Hack */
+     * {
+          box-sizing: border-box;
+     }
+     
+     /* Clear fix hack */
+     .clearfix:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+     }
+     
+     .clear {
+          clear: both;
+     }
+     
+     /******************************************
+     /* BASE STYLES
+     /*******************************************/
+     html {
+          font-size: 60px;
+     }
+     body {
+          max-width: 956px;
+          max-height: 961px;
+          font: 600 1rem/1.25 'Source Serif Pro', 'Noto Serif', serif;
+     }
+     
+     h1{
+          width: 100%;
+            
+          font-size: 0.9rem;
+     }
+     
+     p {
+          font-size: 30%;
+          font-weight: 400;
+          line-height: 2;
+          padding-top: 5%;
+          padding-bottom: 5%; 
+          
+     }
+     
+     
+     .container .right-box a {
+          display: inline-block;
+          width: 22%;
+          text-align: center;
+          background-color: #2f66f2;
+          border: 15px solid #2f66f2;
+          border-radius: 8%;
+          font-size: 20%;
+          text-decoration: none;
+          color: white;
+     
+     }
+     
+     p,
+     a, 
+     header {
+          font-family: 'Lato', 'Noto Serif', Helvetica, serif ;
+     }
+     /******************************************
+     /* LAYOUT
+     /*******************************************/
+     
+     .container {
+          width: 70%;
+          margin: 0 15% 0 15%;
+     }
+     
+     nav {
+          width: 90%;
+          margin: 0 10%;
+          padding-bottom: 1%;
+     }
+     
+     header {
+          height: 10%;
+          border-bottom: thin solid #dedfe1;
+     }
+     
+     header a {
+          text-decoration: none;
+          color: #3771f3;
+          font-size: 30%;
+          padding-right: 2.5%;
+     }
+     
+     nav .logo {
+          color: #0f2a66;
+          font-size: 40%;
+          padding-left: 40%;
+          padding-right: 30%;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20at%2023-43-43%20Khan%20Academy%20Free%20Online%20Courses%20Lessons%20%26%20Practice.png?v=1684568646066') 40% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114055.jpg?v=1685389403626') 100% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114110.png?v=1685389405912') 0 50% no-repeat;
+          
+     }
+     
+     .box {
+          width: 50%;
+          height: 100%;
+          float: left;
+     }
+     
+     .left-box {
+          padding-top: 5%;
+          width: 100%;
+     }
+     
+     .left-box img {
+          padding-top: 5%;
+          width: 100%;
+     }
+     .right-box {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20144946.png?v=1684536656850') 20% 50% no-repeat;
+          padding-left: 10%;
+          width: 100%;
+     }
+     
+     /******************************************
+     /* ADDITIONAL STYLES
+     /*******************************************/
+     
+     .search {
+          border: 12px solid #f0f1f2;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235642.png?v=1684569506279') 100% 0  no-repeat #f0f1f2;
+          background-size: 15%;
+          padding-right: 10%;
+     }
+     
+     .courses {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235613.jpg?v=1684569517551') 85% 0 no-repeat;
+          background-size: 20%; 
+     }
+
+     .courses,
+     .search,
+     .link {
+          display: none;
+     }
+     
+}
+
+/* Media Query #5 */
+
+@media screen and (min-width: 690px) and (max-width: 850px) {
+     /* Box Model Hack */
+     * {
+          box-sizing: border-box;
+     }
+     
+     /* Clear fix hack */
+     .clearfix:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+     }
+     
+     .clear {
+          clear: both;
+     }
+     
+     /******************************************
+     /* BASE STYLES
+     /*******************************************/
+     html {
+          font-size: 60px;
+     }
+     body {
+          max-width: 850px;
+          max-height: 961px;
+          font: 600 1rem/1.25 'Source Serif Pro', 'Noto Serif', serif;
+     }
+     
+     h1{
+          width: 100%;
+            
+          font-size: 0.9rem;
+     }
+     
+     p {
+          font-size: 30%;
+          font-weight: 400;
+          line-height: 2;
+          padding-top: 5%;
+          padding-bottom: 5%; 
+          
+     }
+     
+     
+     .container .right-box a {
+          display: inline-block;
+          width: 22%;
+          text-align: center;
+          background-color: #2f66f2;
+          border: 15px solid #2f66f2;
+          border-radius: 8%;
+          font-size: 20%;
+          text-decoration: none;
+          color: white;
+     
+     }
+     
+     p,
+     a, 
+     header {
+          font-family: 'Lato', 'Noto Serif', Helvetica, serif ;
+     }
+     /******************************************
+     /* LAYOUT
+     /*******************************************/
+     
+     .container {
+          width: 70%;
+          margin: 0 15% 0 15%;
+     }
+     
+     nav {
+          width: 90%;
+          margin: 0 10%;
+          padding-bottom: 1%;
+     }
+     
+     header {
+          height: 10%;
+          border-bottom: thin solid #dedfe1;
+     }
+     
+     header a {
+          text-decoration: none;
+          color: #3771f3;
+          font-size: 30%;
+          padding-right: 2.5%;
+     }
+     
+     nav .logo {
+          color: #0f2a66;
+          font-size: 40%;
+          padding: 0 35%;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20at%2023-43-43%20Khan%20Academy%20Free%20Online%20Courses%20Lessons%20%26%20Practice.png?v=1684568646066') 30% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114055.jpg?v=1685389403626') 100% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114110.png?v=1685389405912') 0 50% no-repeat;
+          
+     }
+     
+     .box {
+          width: 50%;
+          height: 100%;
+          float: left;
+     }
+     
+     .left-box {
+          padding-top: 5%;
+          width: 100%;
+     }
+     
+     .left-box img {
+          padding-top: 5%;
+          width: 100%;
+     }
+     .right-box {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20144946.png?v=1684536656850') 20% 55% no-repeat;
+          padding-left: 10%;
+          width: 100%;
+     }
+     
+     /******************************************
+     /* ADDITIONAL STYLES
+     /*******************************************/
+     
+     .search {
+          border: 12px solid #f0f1f2;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235642.png?v=1684569506279') 100% 0  no-repeat #f0f1f2;
+          background-size: 15%;
+          padding-right: 10%;
+     }
+     
+     .courses {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235613.jpg?v=1684569517551') 85% 0 no-repeat;
+          background-size: 20%; 
+     }
+
+     .courses,
+     .search,
+     .link {
+          display: none;
+     }
+     
+}
+
+/* Media Query #5 */
+
+@media screen and (min-width: 600px) and (max-width: 689px) {
+     /* Box Model Hack */
+     * {
+          box-sizing: border-box;
+     }
+     
+     /* Clear fix hack */
+     .clearfix:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+     }
+     
+     .clear {
+          clear: both;
+     }
+     
+     /******************************************
+     /* BASE STYLES
+     /*******************************************/
+     html {
+          font-size: 60px;
+     }
+     body {
+          max-width: 689px;
+          max-height: 961px;
+          font: 600 1rem/1.25 'Source Serif Pro', 'Noto Serif', serif;
+     }
+     
+     h1{
+          width: 100%;
+          font-size: 0.75rem;
+     }
+     
+     p {
+          font-size: 30%;
+          font-weight: 400;
+          line-height: 2;
+          padding-top: 5%;
+          padding-bottom: 5%; 
+          
+     }
+     
+     
+     .container .right-box a {
+          display: inline-block;
+          width: 20%;
+          text-align: center;
+          background-color: #2f66f2;
+          border: 15px solid #2f66f2;
+          border-radius: 8%;
+          font-size: 15%;
+          text-decoration: none;
+          color: white;
+     
+     }
+     
+     p,
+     a, 
+     header {
+          font-family: 'Lato', 'Noto Serif', Helvetica, serif ;
+     }
+     /******************************************
+     /* LAYOUT
+     /*******************************************/
+     
+     .container {
+          width: 70%;
+          margin: 0 15% 0 15%;
+     }
+     
+     nav {
+          width: 90%;
+          margin: 0 10%;
+          padding-bottom: 1%;
+     }
+     
+     header {
+          height: 10%;
+          border-bottom: thin solid #dedfe1;
+     }
+     
+     header a {
+          text-decoration: none;
+          color: #3771f3;
+          font-size: 30%;
+          padding-right: 2.5%;
+     }
+     
+     nav .logo {
+          color: #0f2a66;
+          font-size: 40%;
+          padding: 0 50% 0 8%;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20at%2023-43-43%20Khan%20Academy%20Free%20Online%20Courses%20Lessons%20%26%20Practice.png?v=1684568646066') no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114055.jpg?v=1685389403626') 100% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114110.png?v=1685389405912') 90% 50% no-repeat;
+          
+     }
+     
+     .box {
+          width: 50%;
+          height: 100%;
+          float: left;
+     }
+     
+     .left-box {
+          padding-top: 5%;
+          width: 100%;
+     }
+     
+     .left-box img {
+          padding-top: 5%;
+          width: 100%;
+     }
+     .right-box {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20144946.png?v=1684536656850') 20% 45% no-repeat;
+          padding-left: 10%;
+          width: 100%;
+     }
+     
+     /******************************************
+     /* ADDITIONAL STYLES
+     /*******************************************/
+     
+     .search {
+          border: 12px solid #f0f1f2;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235642.png?v=1684569506279') 100% 0  no-repeat #f0f1f2;
+          background-size: 15%;
+          padding-right: 10%;
+     }
+     
+     .courses {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235613.jpg?v=1684569517551') 85% 0 no-repeat;
+          background-size: 20%; 
+     }
+
+     .courses,
+     .search,
+     .link {
+          display: none;
+     }
+     
+}
+
+/* Media Query #5 */
+
+@media screen and (min-width: 360px) and (max-width: 599px) {
+     /* Box Model Hack */
+     * {
+          box-sizing: border-box;
+     }
+     
+     /* Clear fix hack */
+     .clearfix:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+     }
+     
+     .clear {
+          clear: both;
+     }
+     
+     /******************************************
+     /* BASE STYLES
+     /*******************************************/
+     html {
+          font-size: 60px;
+     }
+     body {
+          max-width: 599px;
+          max-height: 961px;
+          font: 600 1rem/1.25 'Source Serif Pro', 'Noto Serif', serif;
+     }
+     
+     h1{
+          width: 100%;
+          font-size: 0.75rem;
+     }
+     
+     p {
+          font-size: 30%;
+          font-weight: 400;
+          line-height: 2;
+          padding-top: 5%;
+          padding-bottom: 5%; 
+          
+     }
+     
+     
+     .container .right-box a {
+          display: inline-block;
+          width: 20%;
+          text-align: center;
+          background-color: #2f66f2;
+          border: 15px solid #2f66f2;
+          border-radius: 8%;
+          font-size: 15%;
+          text-decoration: none;
+          color: white;
+     
+     }
+     
+     p,
+     a, 
+     header {
+          font-family: 'Lato', 'Noto Serif', Helvetica, serif ;
+     }
+     /******************************************
+     /* LAYOUT
+     /*******************************************/
+     
+     .container {
+          width: 70%;
+          margin: 0 15% 0 15%;
+     }
+     
+     nav {
+          width: 90%;
+          margin: 0 10%;
+          padding-bottom: 1%;
+     }
+     
+     header {
+          height: 10%;
+          border-bottom: thin solid #dedfe1;
+     }
+     
+     header a {
+          text-decoration: none;
+          color: #3771f3;
+          font-size: 30%;
+          padding-right: 2.5%;
+     }
+     
+     nav .logo {
+          color: #0f2a66;
+          font-size: 40%;
+          padding: 0 50% 0 8%;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20at%2023-43-43%20Khan%20Academy%20Free%20Online%20Courses%20Lessons%20%26%20Practice.png?v=1684568646066') no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114055.jpg?v=1685389403626') 100% 0 no-repeat, url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-29%20114110.png?v=1685389405912') 90% 50% no-repeat;
+          
+     }
+     
+     .box {
+          width: 50%;
+          height: 100%;
+          float: left;
+     }
+     
+     .left-box {
+          padding-top: 5%;
+          width: 100%;
+     }
+     
+     .left-box img {
+          padding-top: 5%;
+          width: 100%;
+     }
+     .right-box {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20144946.png?v=1684536656850') 20% 50% no-repeat;
+          padding-left: 10%;
+          width: 100%;
+     }
+     
+     /******************************************
+     /* ADDITIONAL STYLES
+     /*******************************************/
+     
+     .search {
+          border: 12px solid #f0f1f2;
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235642.png?v=1684569506279') 100% 0  no-repeat #f0f1f2;
+          background-size: 15%;
+          padding-right: 10%;
+     }
+     
+     .courses {
+          background: url('https://cdn.glitch.global/252479d8-a61f-44b7-b55c-bc0c75cb85c5/Screenshot%202023-05-19%20235613.jpg?v=1684569517551') 85% 0 no-repeat;
+          background-size: 20%; 
+     }
+
+     .courses,
+     .search,
+     .link {
+          display: none;
+     }
+     
+}

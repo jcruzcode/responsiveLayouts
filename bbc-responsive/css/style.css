@@ -1,0 +1,3218 @@
+/*=========================================================================
+   1st Media Query 
+===========================================================================*/
+
+@media screen and (min-width: 360px) and (max-width: 435px) {
+  /* Box Model Hack */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+    font-size: 30px;
+  }
+  body {
+    min-width: 360px;
+    max-width: 435px;
+    height: 850px;
+    font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+  }
+  
+  
+  main {
+    position: relative;
+    width: 100%;
+    height: 30%;
+  }
+  
+  section {
+    width: 100%;
+    height: 10%;
+  }
+  
+  h1 {
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+  
+  h3 {
+    display: block;
+    color: #4a4a4a;
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin-left: 5%;
+    padding: 0.5% 0 0.5% 2%;
+    border-left: 3px solid red;
+  }
+  
+  span {
+    display: block;
+    font-size: 0.40rem;
+    font-weight: 400;
+    padding: 0.5% 0 0.5% 2%;
+    border-left: 3px solid red;
+    color: #d1d1d1;
+  }
+  
+  
+  h1,
+  .main-link span {
+    margin: 0 8%;
+  }
+
+  .main-link span {
+    margin: 0 8%;
+  }
+  
+  h1,
+  h2 {
+    padding-bottom: 2%;
+  }
+  
+  a {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .more {
+    margin: 0 5%;
+    padding-bottom: 3%;
+    padding-right: 24%;
+    border-bottom: thin solid #d3d3d3;
+  }
+  
+  .more h2 {
+    display: block;
+    font-size: .50rem;
+    font-weight: 800;
+  }
+  
+  .more span {
+    border-left: 3px solid #549fd3;
+  }
+  
+  .middle .bar {
+    border-left: 3px solid red;
+  }
+  
+  
+  section > .end span {
+    border-left: 3px solid #2e2854;
+  }
+  
+  article,
+  .pic,
+  .med,
+  aside,
+  .heading {
+    display: none;
+  }
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  
+  
+  /* Header Images */
+  
+  .login {
+    padding-left: 2%;
+    width: 15%;
+    
+  }
+  
+  .logo {
+    width: 30%;
+    margin-left: 13%;
+    margin-right: 5%;
+  }
+  
+  .logo,
+  .login {
+    padding-bottom: 5%;
+  }
+  
+  .menu {
+    width: 15%;
+  }
+  
+  .search {
+    width: 15%;
+  }
+  
+  
+  .main { 
+    width: 100%;
+    position: absolute;
+   
+  }
+  
+  .main-link {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-top: 33%;
+  }
+  
+  
+  .mid {
+    padding-right: 24%;
+  }
+  
+  
+  .mid,
+  .end {
+    display: block;
+    width: 90%;
+  }
+  
+  .mid,
+  .middle {
+    padding-top: 3%;
+  }
+  
+  .mid > h2 {
+    padding-top: 3%;
+  }
+  
+  .end > h2 {
+    padding-top: 3%;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  .news h2 {
+    padding-top: 5%;
+  }
+  .news span {
+    border-left: 3px solid red;
+  }
+  }
+  
+  /*==========================================================================
+     2nd Media Query 
+  ============================================================================*/
+  
+  @media screen and (min-width: 436px) and (max-width: 599px) {
+    
+    /* Box Model Hack */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+    font-size: 30px;
+  }
+  body {
+    min-width: 436px;
+    max-width: 599px;
+    height: 850px;
+    font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+  }
+  
+  
+  main {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    margin: 5% 0 15% 0;
+  }
+  
+  section {
+    width: 100%;
+    height: 10%;
+  }
+  
+  h1 {
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+  
+  h3 {
+    display: block;
+    color: #4a4a4a;
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin: 3% 0 0 5%;
+    padding: 0.5% 0 0.5% 2%;
+    border-left: 3px solid red;
+  }
+  
+  span {
+    display: block;
+    font-size: 0.40rem;
+    font-weight: 500;
+    padding: 0.5% 0 0.5% 2%;
+    border-left: 3px solid red;
+    color: #d1d1d1;
+  }
+  
+  
+  h1,
+  .main-link span {
+    margin: 0 8%;
+  }
+  
+  h1,
+  h2 {
+    padding-bottom: 2%;
+  }
+  
+  a {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .more {
+    margin: 0 5%;
+    padding-bottom: 3%;
+    padding-right: 24%;
+    border-bottom: thin solid #d3d3d3
+  }
+  
+  .more h2 {
+    display: block;
+    font-size: .50rem;
+    font-weight: 800;
+  }
+  
+  .more span {
+    border-left: 3px solid #549fd3;
+  }
+  
+  
+  
+  .middle .bar {
+    border-left: 3px solid red;
+  } 
+  
+  
+  section > .end span {
+    border-left: 3px solid #2e2854;
+  } 
+  
+  article,
+  .pic,
+  .med,
+  .heading,
+  aside {
+    display: none;
+  }
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  
+  
+  /* Header Images */
+  
+  .login {
+    padding-left: 2%;
+    width: 15%;
+    
+  }
+  
+  .logo {
+    width: 30%;
+    margin-left: 13%;
+    margin-right: 5%;
+  }
+  
+  .logo,
+  .login {
+    padding-bottom: 5%;
+  }
+  
+  .menu {
+    width: 15%;
+  }
+  
+  .search {
+    width: 15%;
+  }
+  
+  
+  .main { 
+    width: 100%;
+    position: absolute;
+  }
+  
+  .main-link {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-top: 37%;
+  }
+  
+  
+  .mid,
+  .end {
+    display: block;
+    width: 90%;
+  }
+  
+  .mid,
+  .middle {
+    padding-top: 3%;
+  }
+  
+  .mid > h2 {
+    padding-top: 3%;
+  }
+  
+  .end > h2 {
+    padding-top: 3%;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  .news h2 {
+    padding-top: 5%;
+  }
+  .news span {
+    border-left: 3px solid red;
+  }
+  
+  .short {
+    padding-top: 3%;
+  }
+  }
+  
+  
+  /*===========================================================================
+     3rd Media Query 
+  =============================================================================*/
+  
+  @media screen and (min-width: 600px) and (max-width: 649px) {
+     /* Box Model Hack */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+    font-size: 30px;
+  }
+  
+  body {
+    min-width: 600px;
+    max-width: 649px;
+    height: 864px;
+    font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+  }
+  
+  main {
+    width: 100%;
+    height: 40%;
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+    background-size: 94%;
+    border: thick solid white;
+  }
+  
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  
+  h3 {
+    display: inline-block;
+    width: 100%;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+  
+  .third {
+    border-left: 3px solid red;
+    padding-left: 1%;
+    margin-left: 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    width: 100%;
+    height: 8%;
+    font-size: 0.45rem;
+    background-color: black;
+  }
+  
+  nav {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  
+  main > a {
+    padding: 0 5%;
+    margin-top: 28%;
+  }
+  
+  main > a article,
+  main > a span {
+    color: whitesmoke;
+    font-weight: 400;
+  }
+  
+  main > a article {
+    font-size: 0.5rem;
+    padding: 1.25% 0;
+  }
+  
+  main > a span {
+    font-size: 0.4rem;
+    border-left: 3px solid red;
+    padding-left: 2%;
+  }
+  
+  aside {
+    height: 40%;
+    padding: 0 4% 0 2%;
+  }
+  
+  .square {
+    width: 50%;
+    height: 50%;
+    border: thick solid white;
+    float: left;
+  }
+  
+  .news {
+    width: 31.333333%;
+    float: left;
+    font-size: 0.5rem;
+  }
+  
+  .news > .more h2 {
+    color: black;
+  }
+  
+  .news > .more h2 {
+    margin-top: 70%;
+    padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+    padding: 0 2% 5% 5%;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+    color: #5c5c5c
+  }
+  
+  .news > .more .label {
+    border-left: 3px solid red;
+    margin-left: 5%;
+  }
+  .left {
+    margin-left: 3%;
+  }
+  
+  .right {
+    margin-right: 3%;
+  }
+  
+  .heading {
+    display: inline-block;
+    width: 100%;
+    height: 2%;
+    
+  }
+  
+  .heading h3 {
+    width: 50%;
+    float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .reel,
+  .work,
+  .travel,
+  .future,
+  .culture,
+  .stuff,
+  .remove {
+    display: none;
+  }
+  
+  .med .page {
+    color: white;
+  }
+  
+  .top-left {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    background-size: 100%;
+  }
+  
+  .left {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+    background-size: 92%;
+  }
+  
+   .center {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+    background-size: 92%;
+  } 
+  
+  .right {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+    background-size: 92%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .dots,
+  .search {
+    display: block;
+    margin-left: 2%;
+    width: 14.28%;
+    float: left;
+  }
+  
+  .logo {
+    padding-top: 4%;
+    margin-right: 1%;
+  }
+  
+  .login  {
+    width: 8%;
+    margin-top: 4%;
+    border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport {
+    padding-top: 5%;
+    padding-left: 3%;
+  }
+  
+  
+  .dots {
+    width: 8%;
+    padding-top: 3%;
+    margin-right: 1%;
+  }
+  
+  .search {
+    width: 6%;
+    padding-top: 2%;
+    
+  }
+  
+  .welcome {
+    padding-left: 3%;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+  
+  .today {
+    text-align: center;
+    font-weight: 400;
+    color: #8c8c8c;
+  }
+  
+  .more  h2 {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: white;
+    padding: 0 5%;
+    margin-bottom: 1.25%;
+  }
+  
+  .more span {
+    font-size: 0.4rem;
+    padding: 0 5%;
+    color: whitesmoke;
+  }
+  
+  .more > .bar {
+    border-left: 3px solid red;
+    padding-left: 2%;
+    margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+    border-left: 3px solid #372e67;
+    padding-left: 2%;
+    margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+    margin-top: 21%;
+  }
+  
+  .bottom-left h2,
+  .bottom-right h2 {
+    padding-top: 20%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+    border-left: 3px solid #47a1d8;
+    padding-left: 2%;
+    margin-left: 5%;
+  }
+  
+  }
+  
+  /*=============================================================================
+     4th Media Query 
+  ===============================================================================*/
+  @media screen and (min-width: 650px) and (max-width: 719px) {
+       /* Box Model Hack */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+    font-size: 30px;
+  }
+  
+  body {
+    min-width: 650px;
+    max-width: 719px;
+    height: 864px;
+    font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+  }
+  
+  main {
+    width: 100%;
+    height: 40%;
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+    background-size: 94%;
+    border: thick solid white;
+  }
+  
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  
+  h3 {
+    display: inline-block;
+    width: 100%;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+  
+  .third {
+    border-left: 3px solid red;
+    padding-left: 1%;
+    margin-left: 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    width: 100%;
+    height: 9%;
+    font-size: 0.45rem;
+    background-color: black;
+  }
+  
+  nav {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  
+  main > a {
+    padding: 0 5%;
+    margin-top: 28%;
+  }
+  
+  main > a article,
+  main > a span {
+    color: whitesmoke;
+    font-weight: 400;
+  }
+  
+  main > a article {
+    font-size: 0.5rem;
+    padding: 1.25% 0;
+  }
+  
+  main > a span {
+    font-size: 0.4rem;
+    border-left: 3px solid red;
+    padding-left: 2%;
+  }
+  
+  aside {
+    height: 40%;
+    padding: 0 4% 0 2%;
+  }
+  
+  .square {
+    width: 50%;
+    height: 50%;
+    border: thick solid white;
+    float: left;
+  }
+  
+  .news {
+    width: 31.333333%;
+    float: left;
+    font-size: 0.5rem;
+  }
+  
+  .news > .more h2 {
+    color: black;
+  }
+  
+  .news > .more h2 {
+    margin-top: 70%;
+    padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+    padding: 0 2% 5% 5%;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+    color: #5c5c5c
+  }
+  
+  .news > .more .label {
+    border-left: 3px solid red;
+    margin-left: 5%;
+  }
+  .left {
+    margin-left: 3%;
+  }
+  
+  .right {
+    margin-right: 3%;
+  }
+  
+  .heading {
+    display: inline-block;
+    width: 100%;
+    height: 2%;
+    
+  }
+  
+  .heading h3 {
+    width: 50%;
+    float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .work,
+  .travel,
+  .future,
+  .culture,
+  .stuff,
+  .remove {
+    display: none;
+  }
+  
+  .med .page {
+    color: white;
+  }
+  
+  .top-left {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    background-size: 100%;
+  }
+  
+  .left {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+    background-size: 92%;
+  }
+  
+   .center {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+    background-size: 92%;
+  } 
+  
+  .right {
+    background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+    background-size: 92%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .dots,
+  .search {
+    display: block;
+    margin-left: 2%;
+    width: 12.5%;
+    float: left;
+  }
+  
+  .logo {
+    padding-top: 4%;
+    margin-right: 1%;
+  }
+  
+  .login  {
+    width: 8%;
+    margin-top: 4%;
+    border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport,
+  .reel {
+    padding-top: 5%;
+    padding-left: 2%;
+  }
+  
+  
+  .dots {
+    width: 5%;
+    padding-top: 4%;
+    margin-right: 1%;
+  }
+  
+  .search {
+    width: 6%;
+    padding-top: 2%;
+    
+  }
+  
+  .welcome {
+    padding-left: 3%;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+  
+  .today {
+    text-align: center;
+    font-weight: 400;
+    color: #8c8c8c;
+  }
+  
+  .more  h2 {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: white;
+    padding: 0 5%;
+    margin-bottom: 1.25%;
+  }
+  
+  .more span {
+    font-size: 0.4rem;
+    padding: 0 5%;
+    color: whitesmoke;
+  }
+  
+  .more > .bar {
+    border-left: 3px solid red;
+    padding-left: 2%;
+    margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+    border-left: 3px solid #372e67;
+    padding-left: 2%;
+    margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+    margin-top: 25%;
+  }
+  
+  .bottom-left h2 {
+    padding-top: 30%;
+  }
+  
+  .bottom-right h2 {
+    padding-top: 25%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+    border-left: 3px solid #47a1d8;
+    padding-left: 2%;
+    margin-left: 5%;
+  }
+  }
+  
+  /*======================================================================
+     5th Media Query 
+  ========================================================================*/
+  @media screen and (min-width: 720px) and (max-width: 799px) {
+    /* Box Model Hack */
+  * {
+  box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+  clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+  font-size: 30px;
+  }
+  
+  body {
+  min-width: 720px;
+  max-width: 799px;
+  height: 900px;
+  font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  }
+  
+  main {
+  width: 100%;
+  height: 40%;
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+  background-size: 94%;
+  border: thick solid white;
+  }
+  
+  
+  a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+  
+  h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  }
+  
+  
+  h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 800;
+  }
+  
+  .third {
+  border-left: 3px solid red;
+  padding-left: 1%;
+  margin-left: 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  width: 100%;
+  height: 9%;
+  font-size: 0.45rem;
+  background-color: black;
+  }
+  
+  nav {
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+  width: 100%;
+  font-size: 0.6rem;
+  }
+  
+  main > a {
+  padding: 0 5%;
+  margin-top: 30%;
+  }
+  
+  main > a article,
+  main > a span {
+  color: whitesmoke;
+  font-weight: 400;
+  }
+  
+  main > a article {
+  font-size: 0.5rem;
+  padding: 1.25% 0;
+  }
+  
+  main > a span {
+  font-size: 0.4rem;
+  border-left: 3px solid red;
+  padding-left: 2%;
+  }
+  
+  aside {
+  height: 40%;
+  padding: 0 4% 0 2%;
+  }
+  
+  .square {
+  width: 50%;
+  height: 50%;
+  border: thick solid white;
+  float: left;
+  }
+  
+  .news {
+  width: 31.333333%;
+  float: left;
+  font-size: 0.5rem;
+  }
+  
+  .news > .more h2 {
+  color: black;
+  }
+  
+  .news > .more h2 {
+  margin-top: 70%;
+  padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+  padding: 0 2% 5% 5%;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+  color: #5c5c5c
+  }
+  
+  .news > .more .label {
+  border-left: 3px solid red;
+  margin-left: 5%;
+  }
+  .left {
+  margin-left: 3%;
+  }
+  
+  .right {
+  margin-right: 3%;
+  }
+  
+  .heading {
+  display: inline-block;
+  width: 100%;
+  height: 2%;
+  
+  }
+  
+  .heading h3 {
+  width: 50%;
+  float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .travel,
+  .future,
+  .culture,
+  .stuff,
+  .remove {
+  display: none;
+  }
+  
+  .med .page {
+  color: white;
+  }
+  
+  .top-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+  background-size: 100%;
+  }
+  
+  .left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+  background-size: 92%;
+  }
+  
+  .center {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+  background-size: 92%;
+  } 
+  
+  .right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+  background-size: 92%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .dots,
+  .search,
+  .work {
+  display: block;
+  margin-left: 1%;
+  width: 11.111111%;
+  float: left;
+  }
+  
+  .logo {
+  padding-top: 4%;
+  margin-right: 1%;
+  }
+  
+  .login  {
+  width: 6%;
+  margin-top: 4%;
+  border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .work {
+  padding-top: 5%;
+  padding-left: 2%;
+  }
+  
+  
+  
+  .dots {
+  width: 5%;
+  padding-top: 4%;
+  margin: 0 2%;
+  }
+  
+  .search {
+  width: 5%;
+  padding-top: 2%;
+  
+  }
+  
+  .welcome {
+  padding-left: 3%;
+  font-weight: 700;
+  color: #4a4a4a;
+  }
+  
+  .today {
+  text-align: center;
+  font-weight: 400;
+  color: #8c8c8c;
+  }
+  
+  .more  h2 {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: white;
+  padding: 0 5%;
+  margin-bottom: 1.25%;
+  }
+  
+  .more span {
+  font-size: 0.4rem;
+  padding: 0 5%;
+  color: whitesmoke;
+  }
+  
+  .more > .bar {
+  border-left: 3px solid red;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+  border-left: 3px solid #372e67;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+  margin-top: 25%;
+  }
+  
+  .bottom-left h2 {
+  padding-top: 30%;
+  }
+  
+  .bottom-right h2 {
+  padding-top: 25%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+  border-left: 3px solid #47a1d8;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  }
+  
+  /*======================================================================
+     6th Media Query 
+  ========================================================================*/
+  @media screen and (min-width: 800px) and (max-width: 899px) {
+    /* Box Model Hack */
+  * {
+  box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+  clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+  font-size: 30px;
+  }
+  
+  body {
+  min-width: 800px;
+  max-width: 899px;
+  height: 1000px;
+  font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  }
+  
+  main {
+  width: 100%;
+  height: 40%;
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+  background-size: 94%;
+  border: thick solid white;
+  }
+  
+  
+  a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+  
+  h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  }
+  
+  
+  h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 800;
+  }
+  
+  .third {
+  border-left: 3px solid red;
+  padding-left: 1%;
+  margin-left: 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  width: 100%;
+  height: 9%;
+  font-size: 0.45rem;
+  background-color: black;
+  }
+  
+  nav {
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+  width: 100%;
+  font-size: 0.6rem;
+  }
+  
+  main > a {
+  padding: 0 5%;
+  margin-top: 32%;
+  }
+  
+  main > a article,
+  main > a span {
+  color: whitesmoke;
+  font-weight: 400;
+  }
+  
+  main > a article {
+  font-size: 0.5rem;
+  padding: 1.25% 0;
+  }
+  
+  main > a span {
+  font-size: 0.4rem;
+  border-left: 3px solid red;
+  padding-left: 2%;
+  }
+  
+  aside {
+  height: 40%;
+  padding: 0 4% 0 2%;
+  }
+  
+  .square {
+  width: 50%;
+  height: 50%;
+  border: thick solid white;
+  float: left;
+  }
+  
+  .news {
+  width: 31.333333%;
+  float: left;
+  font-size: 0.5rem;
+  }
+  
+  .news > .more h2 {
+  color: black;
+  }
+  
+  .news > .more h2 {
+  margin-top: 70%;
+  padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+  padding: 0 2% 5% 5%;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+  color: #5c5c5c
+  }
+  
+  .news > .more .label {
+  border-left: 3px solid red;
+  margin-left: 5%;
+  }
+  .left {
+  margin-left: 3%;
+  }
+  
+  .right {
+  margin-right: 3%;
+  }
+  
+  .heading {
+  display: inline-block;
+  width: 100%;
+  height: 2%;
+  
+  }
+  
+  .heading h3 {
+  width: 50%;
+  float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .future,
+  .culture,
+  .stuff,
+  .remove {
+  display: none;
+  }
+  
+  .med .page {
+  color: white;
+  }
+  
+  .top-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+  background-size: 100%;
+  }
+  
+  .left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+  background-size: 92%;
+  }
+  
+  .center {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+  background-size: 92%;
+  } 
+  
+  .right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+  background-size: 92%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .dots,
+  .search,
+  .work,
+  .travel {
+  display: block;
+  margin-left: 1%;
+  width: 10%;
+  float: left;
+  }
+  
+  .logo {
+  padding-top: 4%;
+  margin-right: 1%;
+  }
+  
+  .login  {
+  width: 6%;
+  margin-top: 4%;
+  border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .work,
+  .travel {
+  padding-top: 5%;
+  padding-left: 2%;
+  }
+  
+  
+  
+  .dots {
+  width: 5%;
+  padding-top: 4%;
+  margin: 0 2%;
+  }
+  
+  .search {
+  width: 5%;
+  padding-top: 2%;
+  
+  }
+  
+  .welcome {
+  padding-left: 3%;
+  font-weight: 700;
+  color: #4a4a4a;
+  }
+  
+  .today {
+  text-align: center;
+  font-weight: 400;
+  color: #8c8c8c;
+  }
+  
+  .more  h2 {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: white;
+  padding: 0 5%;
+  margin-bottom: 1.25%;
+  }
+  
+  .more span {
+  font-size: 0.4rem;
+  padding: 0 5%;
+  color: whitesmoke;
+  }
+  
+  .more > .bar {
+  border-left: 3px solid red;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+  border-left: 3px solid #372e67;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+  margin-top: 25%;
+  }
+  
+  .bottom-left h2 {
+  padding-top: 40%;
+  }
+  
+  .bottom-right h2 {
+  padding-top: 30%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+  border-left: 3px solid #47a1d8;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  }
+  
+  /*======================================================================
+     7th Media Query 
+  ========================================================================*/
+  @media screen and (min-width: 900px) and (max-width: 1007px) {
+    /* Box Model Hack */
+  * {
+  box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+  clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+  font-size: 30px;
+  }
+  
+  body {
+  min-width: 900px;
+  max-width: 1007px;
+  height: 1200px;
+  font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  }
+  
+  main {
+  width: 100%;
+  height: 40%;
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+  background-size: 94%;
+  border: thick solid white;
+  }
+  
+  
+  a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+  
+  h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  }
+  
+  
+  h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 800;
+  }
+  
+  .third {
+  border-left: 3px solid red;
+  padding-left: 1%;
+  margin-left: 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  width: 100%;
+  height: 9%;
+  font-size: 0.45rem;
+  background-color: black;
+  }
+  
+  nav {
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+  width: 100%;
+  font-size: 0.6rem;
+  }
+  
+  main > a {
+  padding: 0 5%;
+  margin-top: 37%;
+  }
+  
+  main > a article,
+  main > a span {
+  color: whitesmoke;
+  font-weight: 400;
+  }
+  
+  main > a article {
+  font-size: 0.5rem;
+  padding: 1.25% 0;
+  }
+  
+  main > a span {
+  font-size: 0.4rem;
+  border-left: 3px solid red;
+  padding-left: 2%;
+  }
+  
+  aside {
+  height: 40%;
+  padding: 0 4% 0 2%;
+  }
+  
+  .square {
+  width: 50%;
+  height: 50%;
+  border: thick solid white;
+  float: left;
+  }
+  
+  .news {
+  width: 31.333333%;
+  float: left;
+  font-size: 0.5rem;
+  }
+  
+  .news > .more h2 {
+  color: black;
+  }
+  
+  .news > .more h2 {
+  margin-top: 70%;
+  padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+  padding: 0 2% 5% 5%;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+  color: #5c5c5c
+  }
+  
+  .news > .more .label {
+  border-left: 3px solid red;
+  margin-left: 5%;
+  }
+  .left {
+  margin-left: 3%;
+  }
+  
+  .right {
+  margin-right: 3%;
+  }
+  
+  .heading {
+  display: inline-block;
+  width: 100%;
+  height: 1%;
+  
+  }
+  
+  .heading h3 {
+  width: 50%;
+  float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .stuff,
+  .remove {
+  display: none;
+  }
+  
+  .med .page {
+  color: white;
+  }
+  
+  .top-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+  background-size: 100%;
+  }
+  
+  .left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+  background-size: 92%;
+  }
+  
+  .center {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+  background-size: 92%;
+  } 
+  
+  .right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+  background-size: 92%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .dots,
+  .search,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  display: block;
+  width: 9.090909%;
+  float: left;
+  }
+  
+  .logo {
+  padding-top: 4%;
+  margin: 0 1%;
+  }
+  
+  .login  {
+  width: 4%;
+  margin-top: 4%;
+  border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  padding-top: 5%;
+  padding-left: 2%;
+  }
+  
+  
+  
+  .dots {
+  width: 3%;
+  padding-top: 4%;
+  margin: 0 2%;
+  }
+  
+  .search {
+  width: 4%;
+  padding-top: 2%;
+  
+  }
+  
+  .welcome {
+  padding-left: 3%;
+  font-weight: 700;
+  color: #4a4a4a;
+  }
+  
+  .today {
+  text-align: center;
+  font-weight: 400;
+  color: #8c8c8c;
+  }
+  
+  .more  h2 {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: white;
+  padding: 0 5%;
+  margin-bottom: 1.25%;
+  }
+  
+  .more span {
+  font-size: 0.4rem;
+  padding: 0 5%;
+  color: whitesmoke;
+  }
+  
+  .more > .bar {
+  border-left: 3px solid red;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+  border-left: 3px solid #372e67;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+  margin-top: 30%;
+  }
+  
+  .bottom-left h2 {
+  padding-top: 52%;
+  }
+  
+  .bottom-right h2 {
+  padding-top: 42%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+  border-left: 3px solid #47a1d8;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  }
+  
+  /*======================================================================
+     8th Media Query 
+  ========================================================================*/
+  @media screen and (min-width: 1008px) and (max-width: 1080px) {
+    /* Box Model Hack */
+  * {
+  box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+  clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+  font-size: 30px;
+  }
+  
+  body {
+  min-width: 1008px;
+  max-width: 1080px;
+  height: 880px;
+  font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  }
+  
+  main {
+  height: 30%;
+  float: left;
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+  background-size: 100%;
+  border-left: 20px solid white;
+  }
+  
+  aside {
+    float: left;
+  }
+  
+  
+  a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+  
+  h1 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: white;
+  }
+  
+  
+  h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 800;
+  }
+  
+  .third {
+  border-left: 3px solid red;
+  padding-left: 1%;
+  margin: 5% 0 0 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  width: 100%;
+  height: 9%;
+  font-size: 0.45rem;
+  background-color: black;
+  }
+  
+  nav {
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+  width: 50%;
+  font-size: 0.6rem;
+  }
+  
+  
+  main > a {
+  padding: 0 5%;
+  margin-top: 30%;
+  }
+  
+  main > a article,
+  main > a span {
+  color: whitesmoke;
+  font-weight: 400;
+  }
+  
+  main > a article {
+  font-size: 0.5rem;
+  padding: 1.25% 0;
+  }
+  
+  main > a span {
+  font-size: 0.4rem;
+  border-left: 3px solid red;
+  padding-left: 2%;
+  }
+  
+  aside {
+  height: 30%;
+  padding: 0 4% 0 2%;
+  }
+  
+  .square {
+  width: 50%;
+  height: 50%;
+  border: thick solid white;
+  float: left;
+  }
+  
+  .news {
+  width: 31.333333%;
+  float: left;
+  }
+  
+  .news > .more h2 {
+  color: black;
+  font-size: 0.7rem;
+  }
+  
+  .news > .more h2 {
+  margin-top: 70%;
+  padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+  padding: 0 2% 5% 5%;
+  font-size: 0.5rem;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+  color: #5c5c5c
+  }
+  
+  .news > .more .label {
+  border-left: 3px solid red;
+  margin-left: 5%;
+  }
+  .left {
+  margin-left: 3%;
+  }
+  
+  .right {
+  margin-right: 3%;
+  }
+  
+  .heading {
+  display: inline-block;
+  width: 100%;
+  height: 1%;
+  
+  }
+  
+  .heading h3 {
+  width: 50%;
+  float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .stuff,
+  .remove {
+  display: none;
+  }
+  
+  .med .page {
+  color: white;
+  }
+  
+  .top-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+  background-size: 100%;
+  }
+  
+  .left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+  background-size: 100%;
+  }
+  
+  .center {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+  background-size: 100%;
+  } 
+  
+  .right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+  background-size: 100%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .dots,
+  .search,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  display: block;
+  width: 9.090909%;
+  float: left;
+  }
+  
+  .logo {
+  padding-top: 4%;
+  margin: 0 1%;
+  }
+  
+  .login  {
+  width: 4%;
+  margin-top: 4%;
+  border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  padding-top: 5%;
+  padding-left: 2%;
+  }
+  
+  
+  
+  .dots {
+  width: 3%;
+  padding-top: 4%;
+  margin: 0 2%;
+  }
+  
+  .search {
+  width: 4%;
+  padding-top: 2%;
+  
+  }
+  
+  .welcome {
+  padding-left: 3%;
+  font-weight: 700;
+  color: #4a4a4a;
+  }
+  
+  .today {
+  padding-left: 20%;
+  text-align: center;
+  font-weight: 400;
+  color: #8c8c8c;
+  }
+  
+  .more  h2 {
+  font-size: 0.4rem;
+  font-weight: 700;
+  color: white;
+  padding: 0 5%;
+  margin-bottom: 1.25%;
+  }
+  
+  .more span {
+  font-size: 0.4rem;
+  padding: 0 5%;
+  color: whitesmoke;
+  }
+  
+  .more > .bar {
+  border-left: 3px solid red;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+  border-left: 3px solid #372e67;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+  margin-top: 25%;
+  }
+  
+  .bottom-left h2 {
+  padding-top: 30%;
+  }
+  
+  .bottom-right h2 {
+  padding-top: 25%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+  border-left: 3px solid #47a1d8;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  }
+
+  /*======================================================================
+     9th Media Query 
+  ========================================================================*/
+  @media screen and (min-width: 1081px) and (max-width: 1130px) {
+    /* Box Model Hack */
+  * {
+  box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+  clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+  font-size: 30px;
+  }
+  
+  body {
+  min-width: 1008px;
+  max-width: 1080px;
+  height: 880px;
+  font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  }
+  
+  main {
+  height: 30%;
+  float: left;
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+  background-size: 100%;
+  border-left: 20px solid white;
+  }
+  
+  aside {
+    float: left;
+  }
+  
+  
+  a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+  
+  h1 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: white;
+  }
+  
+  
+  h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 800;
+  }
+  
+  .third {
+  border-left: 3px solid red;
+  padding-left: 1%;
+  margin: 5% 0 0 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  width: 100%;
+  height: 9%;
+  font-size: 0.45rem;
+  background-color: black;
+  }
+  
+  nav {
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+  width: 50%;
+  font-size: 0.6rem;
+  }
+  
+  
+  main > a {
+  padding: 0 5%;
+  margin-top: 30%;
+  }
+  
+  main > a article,
+  main > a span {
+  color: whitesmoke;
+  font-weight: 400;
+  }
+  
+  main > a article {
+  font-size: 0.5rem;
+  padding: 1.25% 0;
+  }
+  
+  main > a span {
+  font-size: 0.4rem;
+  border-left: 3px solid red;
+  padding-left: 2%;
+  }
+  
+  aside {
+  height: 30%;
+  padding: 0 4% 0 2%;
+  }
+  
+  .square {
+  width: 50%;
+  height: 50%;
+  border: thick solid white;
+  float: left;
+  }
+  
+  .news {
+  width: 31.333333%;
+  float: left;
+  }
+  
+  .news > .more h2 {
+  color: black;
+  font-size: 0.7rem;
+  }
+  
+  .news > .more h2 {
+  margin-top: 70%;
+  padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+  padding: 0 2% 5% 5%;
+  font-size: 0.5rem;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+  color: #5c5c5c
+  }
+  
+  .news > .more .label {
+  border-left: 3px solid red;
+  margin-left: 5%;
+  }
+  .left {
+  margin-left: 3%;
+  }
+  
+  .right {
+  margin-right: 3%;
+  }
+  
+  .heading {
+  display: inline-block;
+  width: 100%;
+  height: 1%;
+  
+  }
+  
+  .heading h3 {
+  width: 50%;
+  float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .stuff,
+  .remove {
+  display: none;
+  }
+  
+  .med .page {
+  color: white;
+  }
+  
+  .top-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+  background-size: 100%;
+  }
+  
+  .left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+  background-size: 100%;
+  }
+  
+  .center {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+  background-size: 100%;
+  } 
+  
+  .right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+  background-size: 100%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .dots,
+  .search,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  display: block;
+  width: 9.090909%;
+  float: left;
+  }
+  
+  .logo {
+  padding-top: 4%;
+  margin: 0 1%;
+  }
+  
+  .login  {
+  width: 4%;
+  margin-top: 4%;
+  border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  padding-top: 5%;
+  padding-left: 2%;
+  }
+  
+  
+  
+  .dots {
+  width: 3%;
+  padding-top: 4%;
+  margin: 0 2%;
+  }
+  
+  .search {
+  width: 3%;
+  padding-top: 3%;
+  
+  }
+  
+  .welcome {
+  padding-left: 3%;
+  font-weight: 700;
+  color: #4a4a4a;
+  }
+  
+  .today {
+  padding-left: 20%;
+  text-align: center;
+  font-weight: 400;
+  color: #8c8c8c;
+  }
+  
+  .more  h2 {
+  font-size: 0.4rem;
+  font-weight: 700;
+  color: white;
+  padding: 0 5%;
+  margin-bottom: 1.25%;
+  }
+  
+  .more span {
+  font-size: 0.4rem;
+  padding: 0 5%;
+  color: whitesmoke;
+  }
+  
+  .more > .bar {
+  border-left: 3px solid red;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+  border-left: 3px solid #372e67;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+  margin-top: 25%;
+  }
+  
+  .bottom-left h2 {
+  padding-top: 30%;
+  }
+  
+  .bottom-right h2 {
+  padding-top: 25%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+  border-left: 3px solid #47a1d8;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  }
+
+  /*======================================================================
+     10th Media Query 
+  ========================================================================*/
+  @media screen and (min-width: 1131px) {
+    /* Box Model Hack */
+  * {
+  box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+  clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html {
+  font-size: 30px;
+  }
+  
+  body {
+  min-width: 1131px;
+  height: 880px;
+  font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  }
+  
+  main {
+  height: 40%;
+  float: left;
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/UAEdeal.jpg?v=1681964259926') 30% 0  no-repeat;
+  background-size: 100%;
+  border-left: 20px solid white;
+  }
+  
+  aside {
+    float: left;
+  }
+  
+  
+  a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+  
+  h1 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: white;
+  }
+  
+  
+  h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 800;
+  }
+  
+  .third {
+  border-left: 3px solid red;
+  padding-left: 1%;
+  margin: 5% 0 0 3%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  width: 100%;
+  height: 15%;
+  font-size: 0.45rem;
+  background-color: black;
+  }
+  
+  nav {
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+  main, 
+  aside {
+  width: 50%;
+  font-size: 0.6rem;
+  }
+  
+  
+  main > a {
+  padding: 0 5%;
+  margin-top: 25%;
+  }
+  
+  main > a article,
+  main > a span {
+  color: whitesmoke;
+  font-weight: 400;
+  }
+  
+  main > a article {
+  font-size: 0.5rem;
+  padding: 1.25% 0;
+  }
+  
+  main > a span {
+  font-size: 0.4rem;
+  border-left: 3px solid red;
+  padding-left: 2%;
+  }
+  
+  aside {
+  height: 40%;
+  padding: 0 4% 0 2%;
+  }
+  
+  .square {
+  width: 50%;
+  height: 50%;
+  border: thick solid white;
+  float: left;
+  }
+  
+  .news {
+  width: 31.333333%;
+  float: left;
+  }
+  
+  .news > .more h2 {
+  color: black;
+  font-size: 0.7rem;
+  }
+  
+  .news > .more h2 {
+  margin-top: 70%;
+  padding-bottom: 2%;
+  }
+  
+  .news > .more article {
+  padding: 0 2% 5% 5%;
+  font-size: 0.6rem;
+  }
+
+  .news > .more span {
+    font-size: 0.5rem;
+  }
+  
+  .news > .more article,
+  .news > .more span {
+  color: #5c5c5c
+  }
+  
+  .news > .more .label {
+  border-left: 3px solid red;
+  margin-left: 5%;
+  }
+  .left {
+  margin-left: 3%;
+  }
+  
+  .right {
+  margin-right: 3%;
+  }
+  
+  .heading {
+  display: inline-block;
+  width: 100%;
+  height: 1%;
+  
+  }
+  
+  .heading h3 {
+  width: 50%;
+  float: left;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .small,
+  .solo,
+  .stuff,
+  .remove {
+  display: none;
+  }
+  
+  .med .page {
+  color: white;
+  }
+  
+  .top-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/canada.png?v=1681964244078')  no-repeat;
+  }
+  
+  .top-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/covid.jpg?v=1681964247876')  no-repeat;
+  }
+  
+  .bottom-left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/workday.png?v=1681964264240') no-repeat;
+  }
+  
+  .bottom-right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/culture.jpg?v=1681964251589') no-repeat;
+  }
+  
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+  background-size: 100%;
+  }
+  
+  .left {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/bidenharris.png?v=1681964240947') 0 10% no-repeat;
+  background-size: 100%;
+  }
+  
+  .center {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/peace.png?v=1681964254896') 0 10% no-repeat;
+  background-size: 100%;
+  } 
+  
+  .right {
+  background: url('https://cdn.glitch.global/6504163a-2f4d-48ad-a366-e681ba8a763c/trump.png?v=1681964257173') 0 10% no-repeat;
+  background-size: 100%;
+  }
+  
+  
+  .logo,
+  .login,
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .dots,
+  .search,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  display: block;
+  width: 9.090909%;
+  float: left;
+  }
+  
+  .logo {
+  width: 6%;
+  padding-top: 4%;
+  margin: 0 1%;
+  }
+  
+  .login  {
+  width: 3%;
+  margin-top: 4%;
+  border-right: thin solid white;
+  }
+  
+  .home,
+  .news-link,
+  .sport,
+  .reel,
+  .work,
+  .travel,
+  .future,
+  .culture {
+  padding-top: 5%;
+  padding-left: 2%;
+  }
+  
+  
+  
+  .dots {
+  width: 3%;
+  padding-top: 4%;
+  margin: 0 2%;
+  }
+  
+  .search {
+  width: 2.5%;
+  padding-top: 3%;
+  
+  }
+  
+  .welcome {
+  padding-left: 3%;
+  font-weight: 700;
+  color: #4a4a4a;
+  }
+  
+  .today {
+  padding-left: 20%;
+  text-align: center;
+  font-weight: 400;
+  color: #8c8c8c;
+  }
+  
+  .more  h2 {
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: white;
+  padding: 0 5%;
+  margin-bottom: 1.25%;
+  }
+  
+  .more span {
+  font-size: 0.4rem;
+  padding: 0 5%;
+  color: whitesmoke;
+  }
+  
+  .more > .bar {
+  border-left: 3px solid red;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .bottom-right > .more span {
+  border-left: 3px solid #372e67;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  
+  .top-left h2,
+  .top-right h2 {
+  margin-top: 25%;
+  }
+  
+  .bottom-left h2 {
+  padding-top: 30%;
+  }
+  
+  .bottom-right h2 {
+  padding-top: 25%;
+  }
+  
+  .top-left span,
+  .bottom-left span {
+  border-left: 3px solid #47a1d8;
+  padding-left: 2%;
+  margin-left: 5%;
+  }
+  }
