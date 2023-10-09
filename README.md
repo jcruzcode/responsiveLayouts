@@ -1,5 +1,5 @@
 # 100Devs - Front End Web Development
-Static websites made using responsive layouts
+Static websites with responsive layouts made using HTML & CSS.
 1) [Cuisine Restaurant](https://jcruzcode.github.io/responsiveLayouts/restaurant/index.html)
 2) [Levelground MMA](https://jcruzcode.github.io/responsiveLayouts/levelground/index.html)
 3) [BBC](https://jcruzcode.github.io/responsiveLayouts/bbc-responsive/index.html)
